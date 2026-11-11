@@ -1,6 +1,6 @@
 # 游泳技术、前置条件与反馈契约
 
-本版0.3.25是候选扩展。泳课剂量的唯一入口是[游泳编排](swim-programming.md)。[来源登记](swim-technique-evidence.json)定位 Ruben J. Guzman《The Swimming Drill Book》Human Kinetics 2007版；不是后来的第2版。按原文目的和观察点自行概括；插图未核，不复制书图或大段译文。组数、距离、休息、安全筛选和反馈都是产品设计，不冒充书本处方。
+本版1.0包含游泳技术扩展。泳课剂量的唯一入口是[游泳编排](swim-programming.md)。[来源登记](swim-technique-evidence.json)定位 Ruben J. Guzman《The Swimming Drill Book》Human Kinetics 2007版；不是后来的第2版。按原文目的和观察点自行概括；插图未核，不复制书图或大段译文。组数、距离、休息、安全筛选和反馈都是产品设计，不冒充书本处方。
 
 ## 注册范围
 

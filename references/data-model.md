@@ -126,6 +126,6 @@
 日期校验不证明球类负荷、医学安全或长期效果。已有具体身体限制和训练组合约束仍需检查。
 
 
-## 游泳技术扩展 0.3.25
+## 游泳技术扩展 1.0
 
 profile.swim_task_readiness以unit_id为键，保存status、basis及距离型任务的continuous_distance_m；不由整泳能力或另一泳姿填入。session.swim_focus指向本课实际选中泳任务，保存goal与单一observation。原地技术练习保持category=swim但swim_task_mode=stationary，按每组时间计，distance_m=null且不计有氧泳量。可选反馈用[独立schema](../schemas/swim-feedback.schema.json)，不改已有记录，不通过缺日志阻断正常计划。完整语义见[游泳技术契约](swim-technique-contract.md)。

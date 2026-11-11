@@ -1,6 +1,6 @@
 [English](README.en.md)
 
-> 当前公开源包候选版本：0.3.25。游泳扩展与验收见 [游泳技术契约](references/swim-technique-contract.md)。
+> 当前公开源包版本：1.0。游泳扩展与验收见 [游泳技术契约](references/swim-technique-contract.md)。
 
 # training-plan · 综合训练课表
 

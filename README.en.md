@@ -4,7 +4,7 @@
 
 An independently usable Skill for planning, expanding and revising general training programs of up to 12 weeks. It combines functional strength, running and swimming, with ball sports treated as scheduling and recovery constraints.
 
-Version 0.3.25 includes planning rules, a structured plan format, a training library, validators and Markdown renderers. Playwise is the separate local web interface that bundles a pinned copy. Its new swimming model workflow is still undergoing release verification.
+Version 1.0 includes planning rules, a structured plan format, a training library, validators and Markdown renderers. Playwise is the separate local web interface that bundles a pinned copy. Its new swimming model workflow is still undergoing release verification.
 
 ## What it does
 
@@ -39,7 +39,7 @@ For a plan that is not ready for execution, rendering requires `--draft` and lab
 
 Additional tools include `render_weekly_log.py`, `export_plan.py`, `compare_plans.py` and `select_assets.py`. Run a tool with `--help` for its interface.
 
-## Swimming in 0.3.25
+## Swimming in 1.0
 
 Swimming rules now use one consistent progression and dose contract. The new breaststroke content is based on selected drills from Ruben J. Guzman's *The Swimming Drill Book*, Human Kinetics, 2007, not the later second edition.
 
@@ -59,7 +59,7 @@ The main plan separates objectives, stages, weeks and sessions. Work items retai
 
 ## Verification
 
-The 0.3.25 source candidate passed 211 tests, library validation, exercise-name checks and documentation link checks. The public copy removes personal narrative and private customization while preserving runtime code, schemas, numerical assets and fictional fixtures.
+The 1.0 source passed 211 tests, library validation, exercise-name checks and documentation link checks. The public copy removes personal narrative and private customization while preserving runtime code, schemas, numerical assets and fictional fixtures.
 
 ```sh
 python3 -m pip install 'pytest>=8,<9'
