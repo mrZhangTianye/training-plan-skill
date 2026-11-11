@@ -1,0 +1,78 @@
+{
+  "type": "object",
+  "properties": {
+    "session_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "unit_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "completion": {
+      "type": "string",
+      "enum": [
+        "done",
+        "partial",
+        "notdone"
+      ]
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": [
+        "easy",
+        "appropriate",
+        "hard"
+      ]
+    },
+    "focus_result": {
+      "type": "string",
+      "enum": [
+        "maintained",
+        "intermittent",
+        "not_maintained",
+        "not_observed"
+      ]
+    },
+    "actual_sets": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "distance_m": {
+      "type": "number",
+      "minimum": 0
+    },
+    "duration_minutes": {
+      "type": "number",
+      "minimum": 0
+    },
+    "rest_seconds": {
+      "type": "number",
+      "minimum": 0
+    },
+    "symptoms": {
+      "type": "string",
+      "enum": [
+        "none_reported",
+        "new_or_worse",
+        "not_reported"
+      ]
+    },
+    "next_day_response": {
+      "type": "string",
+      "enum": [
+        "usual",
+        "new_or_worse",
+        "not_reported"
+      ]
+    }
+  },
+  "required": [
+    "session_id",
+    "unit_id",
+    "completion",
+    "difficulty",
+    "focus_result"
+  ],
+  "additionalProperties": false
+}

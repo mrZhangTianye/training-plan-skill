@@ -1,0 +1,34 @@
+{
+  "example_only": true,
+  "profile_patch": {
+    "mastery": {
+      "swim_breaststroke_controlled": "independent"
+    },
+    "equipment": [
+      "pool"
+    ],
+    "swim_task_readiness": {
+      "swim_breaststroke_controlled": {
+        "status": "ready",
+        "basis": "虚构接口示例：本人自述已能独立完成该具体练习和25米，非医学许可。",
+        "continuous_distance_m": 25
+      }
+    }
+  },
+  "session_swim_focus": {
+    "unit_id": "swim_breaststroke_controlled",
+    "goal": "完整蛙泳中保持顺序与伸展",
+    "observation": "每轮回到伸展，正常呼吸和节奏均匀"
+  },
+  "optional_feedback": {
+    "session_id": "EXAMPLE_ONLY",
+    "unit_id": "swim_breaststroke_controlled",
+    "completion": "partial",
+    "difficulty": "appropriate",
+    "focus_result": "intermittent",
+    "actual_sets": 1,
+    "distance_m": 25,
+    "symptoms": "not_reported",
+    "next_day_response": "not_reported"
+  }
+}

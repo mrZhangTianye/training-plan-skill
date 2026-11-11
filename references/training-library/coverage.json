@@ -1,0 +1,4506 @@
+{
+  "version": 3,
+  "scope": "按11项能力横切7个域与任务家族；仅描述工具支持范围，不保证实际课表或个人能力全面发展。",
+  "interpretation": [
+    "发展和维持须由本周期针对性剂量与频率成立；目录覆盖不能代替计划覆盖。",
+    "准备、低疲劳技术与条件工具按支持范围使用，不自动计成主发展刺激。",
+    "参数变式保留独立明确定义，避免任务差异被合并；不会因此自动叠加剂量。"
+  ],
+  "capabilities": [
+    {
+      "id": "strength",
+      "name": "力量",
+      "domains": [
+        "A",
+        "B",
+        "G"
+      ],
+      "family_ids": [
+        "a_08b22d2b54",
+        "b_0f15066cca",
+        "b_13b23f2e2a",
+        "b_14ed33f029",
+        "b_2d40669cf5",
+        "b_2e9b6d0e2f",
+        "b_2f16649bca",
+        "b_3744f46ba5",
+        "b_3d9a6f21c8",
+        "b_4ee36a67b2",
+        "b_5647b04699",
+        "b_5a7c1e93d4",
+        "b_5c509c8b67",
+        "b_6cc0c31d21",
+        "b_774585ff42",
+        "b_800f1ebda9",
+        "b_833a82bf97",
+        "b_8ac1fa5102",
+        "b_a12535e3f7",
+        "b_b8eb19a26f",
+        "b_bb54b2d701",
+        "b_bd56e9f997",
+        "b_c0fc20b175",
+        "b_c2ffeb66df",
+        "b_c8d8f9d739",
+        "g_c7d96b3907",
+        "g_e5552472b0"
+      ],
+      "operational_assets": [
+        "alternating_db_bench_press",
+        "assisted_nordic",
+        "assisted_pull_up",
+        "band_resisted_bridge_march",
+        "band_row",
+        "barbell_bent_over_row",
+        "barbell_box_squat",
+        "barbell_conventional_deadlift",
+        "barbell_front_squat",
+        "barbell_high_bar_back_squat",
+        "barbell_low_bar_back_squat",
+        "barbell_strict_press",
+        "bench_press",
+        "bent_knee_calf_raise",
+        "bodyweight_calf_raise",
+        "bodyweight_squat",
+        "bottom_up_kb_press",
+        "cable_external_rotation",
+        "cable_single_leg_rdl",
+        "carry",
+        "chin_up",
+        "contralateral_cable_row",
+        "cook_hip_lift",
+        "copenhagen_long",
+        "copenhagen_short",
+        "db_bench_press",
+        "db_floor_press",
+        "db_row",
+        "dip",
+        "double_leg_bridge_prep",
+        "feet_elevated_push_up",
+        "forward_lunge",
+        "front_rack_carry",
+        "front_squat",
+        "full_get_up",
+        "goblet_squat",
+        "half_get_up",
+        "half_kneeling_alternating_kb_press",
+        "half_kneeling_landmine_press",
+        "half_kneeling_single_arm_cable_press",
+        "half_kneeling_single_arm_cable_row",
+        "high_split_alternating_kb_press",
+        "incline_chest_supported_db_row",
+        "incline_push_up",
+        "kb_deadlift",
+        "kb_sumo_deadlift",
+        "knee_hug_single_leg_bridge",
+        "landmine_lateral_lunge",
+        "landmine_single_leg_rdl",
+        "lat_pulldown",
+        "lateral_squat",
+        "long_lever_copenhagen",
+        "lying_leg_curl",
+        "military_press",
+        "mini_band_rotation",
+        "neutral_grip_pull_up",
+        "overhead_carry",
+        "pelvic_tilt_awareness",
+        "pinch_grip_hold",
+        "pull_up",
+        "push_up",
+        "quarter_get_up",
+        "rack_support",
+        "rdl",
+        "rear_foot_elevated_split_squat",
+        "reduced_range_rdl",
+        "reverse_fly",
+        "reverse_shrug",
+        "ring_row",
+        "rower_steady_intervals",
+        "seated_cable_row",
+        "seated_calf_raise",
+        "seated_leg_curl",
+        "seated_supported_db_press",
+        "short_lever_copenhagen",
+        "short_range_ball_leg_curl",
+        "shoulder_elevated_hip_lift",
+        "sidelying_db_external_rotation",
+        "single_arm_cable_row",
+        "single_arm_db_bench_press",
+        "single_arm_db_floor_press",
+        "single_arm_kb_strict_press",
+        "single_arm_single_leg_cable_row",
+        "single_leg_box_squat",
+        "single_leg_calf_raise",
+        "single_leg_rdl",
+        "sled_push_conditioning",
+        "slider_leg_curl",
+        "spanish_squat_isometric",
+        "split_squat",
+        "stability_ball_leg_curl",
+        "standing_alternating_db_press",
+        "standing_calf_raise",
+        "standing_db_press",
+        "standing_landmine_strict_press",
+        "standing_single_arm_cable_press",
+        "step_up",
+        "suitcase_carry",
+        "supported_single_leg_box_squat",
+        "supported_single_leg_rdl",
+        "supported_split_squat",
+        "towel_inverted_curl",
+        "trap_bar_deadlift",
+        "two_point_supported_db_row",
+        "unloaded_quarter_get_up",
+        "weighted_dead_hang",
+        "weighted_pull_up",
+        "weighted_push_up",
+        "wide_stance_supported_db_row",
+        "x_pulldown"
+      ],
+      "catalog_only": [],
+      "support_scope": [
+        {
+          "asset_id": "cook_hip_lift",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "低负荷髋伸展与骨盆控制",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "double_leg_bridge_prep",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "低负荷髋伸展与骨盆控制",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "goblet_squat",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "可递进双腿蹲起力量",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "bodyweight_squat",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "低负荷双腿蹲起",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "trap_bar_deadlift",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "较重双腿髋膝伸展力量",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "split_squat",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "静态单侧为主的膝髋力量",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "supported_split_squat",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "较低平衡要求的单侧膝髋力量",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "rear_foot_elevated_split_squat",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "更集中于前腿的膝髋力量",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_leg_box_squat",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "真正单腿支撑下的膝主导力量与控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "supported_single_leg_box_squat",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "较低平衡或较短范围的单腿蹲",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "lateral_squat",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "额状面腿部力量及侧向重心控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "landmine_lateral_lunge",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "额状面腿力及迈步接收、回推",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "rdl",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "双腿后链力量与负重髋铰链",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "reduced_range_rdl",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "较低负荷和较短范围的髋铰链",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "kb_deadlift",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "从地面或垫高位置起放负重的髋伸力量",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_leg_rdl",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "单腿后链力量、骨盆控制与平衡",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "supported_single_leg_rdl",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "降低平衡限制的单腿后链力量",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "landmine_single_leg_rdl",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "沿杠杆路径的单腿后链力量",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "shoulder_elevated_hip_lift",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "增加范围的单腿髋伸与躯干控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "kb_sumo_deadlift",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "胸前反平衡蹲不适用时的双腿髋膝屈伸",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "forward_lunge",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "单侧腿力与前向迈步接收回推",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "cable_single_leg_rdl",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "水平牵引下的单腿后链力量",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "standing_calf_raise",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "在膝接近伸直的位置直接发展跖屈负重能力。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "bodyweight_calf_raise",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "在降低负重和平衡要求时保留受控跖屈。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_leg_calf_raise",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "将跖屈负荷集中到一侧，并保持稳定范围。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "seated_calf_raise",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "在稳定屈膝位置发展跖屈承载。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "stability_ball_leg_curl",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "维持髋伸展支撑的同时，以膝屈伸滚动稳定球。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "short_range_ball_leg_curl",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "在降低外伸杠杆时保留髋支撑与实际膝屈伸。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "slider_leg_curl",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "在平面滑动中维持髋伸展支撑与膝屈伸。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "assisted_nordic",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "在跪姿固定小腿时，以膝伸展过程承受腘绳肌离心负荷。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "short_lever_copenhagen",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "在侧向躯干支撑中，以支撑腿髋内收承担身体负重。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "long_lever_copenhagen",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "在延长腿部杠杆时增加髋内收与侧向支撑负荷。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "barbell_front_squat",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "前架持重的双腿蹲起力量",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "barbell_high_bar_back_squat",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "背部持重的双腿蹲起力量",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "carry",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "负重行走、握力及全身姿势控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "suitcase_carry",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "负重行走与抗侧屈",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "front_rack_carry",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "前架负重行走与躯干姿势控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "quarter_get_up",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "从地面滚起到肘支撑及持铃控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "unloaded_quarter_get_up",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "无外负荷的滚起到肘支撑",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "half_get_up",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "滚起、手支撑与桥位的衔接",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "full_get_up",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "负重下从地面到站立并返回",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "db_bench_press",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "可递进双侧水平推力量",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "db_floor_press",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "缩短下降范围的水平推",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "bench_press",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "较重双侧水平推力量",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "push_up",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "水平推与主动躯干支撑",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "incline_push_up",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "较低相对负荷的水平推与躯干支撑",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "weighted_push_up",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "更大水平推负荷及躯干支撑",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "standing_db_press",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "完整头顶垂直推及站姿控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "seated_supported_db_press",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "较低站姿控制要求的垂直推",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_arm_kb_strict_press",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "单侧头顶推与偏侧负荷控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "half_kneeling_landmine_press",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "斜向单臂推及半跪躯干控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "standing_landmine_strict_press",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "斜向推力与站姿整合控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "db_row",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "单臂水平拉力量",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "band_row",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "较低起始负荷的水平拉",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "ring_row",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "自重水平拉与主动躯干支撑",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_arm_cable_row",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "单臂水平拉与站姿抗旋转整合",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "pull_up",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "垂直拉与相对上肢力量",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "assisted_pull_up",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "保留完整路径的较低相对负荷垂直拉",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "weighted_pull_up",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "更高负荷的严格垂直拉",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "half_kneeling_alternating_kb_press",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "完整头顶推与半跪架位控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "bottom_up_kb_press",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "轻负荷垂直推与持铃平衡反馈",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "high_split_alternating_kb_press",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "站姿分腿条件的交替垂直推",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "standing_alternating_db_press",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "平行站姿的交替垂直推与偏侧控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "x_pulldown",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "可独立调负荷的垂直拉与手臂路径控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "wide_stance_supported_db_row",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "宽站髋铰链支撑下的单臂水平拉",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_arm_single_leg_cable_row",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "单腿支撑中的水平拉与抗旋转",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "chin_up",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "反握完整垂直拉",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "neutral_grip_pull_up",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "中立握完整垂直拉",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "feet_elevated_push_up",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "更高相对上肢负荷的俯卧撑",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "standing_single_arm_cable_press",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "可调轻负荷水平推与站姿躯干控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "cable_external_rotation",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "在固定上臂位置直接发展肩外旋承载。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "sidelying_db_external_rotation",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "借重力阻力完成上臂贴身的肩外旋承载。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_arm_db_bench_press",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "单臂水平推与偏侧承重控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_arm_db_floor_press",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "较短下降范围的单臂水平推",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "alternating_db_bench_press",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "单臂推举与对侧等长顶端保持",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "half_kneeling_single_arm_cable_press",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "水平单臂推与半跪抗旋转",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "half_kneeling_single_arm_cable_row",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "单臂水平拉与半跪抗旋转",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "sled_push_conditioning",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "在负重前向推进中重复下肢工作。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "barbell_conventional_deadlift",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "地面静止起杠的双腿负重拉起",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "barbell_strict_press",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "站姿双臂杠铃严格头顶推力",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "barbell_bent_over_row",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "无胸托的双臂水平拉与髋铰链等长支撑",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "barbell_low_bar_back_squat",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "低杠背部持重的双腿蹲起",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "weighted_dead_hang",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "双手支撑握下的额外负重悬吊",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "pinch_grip_hold",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "拇指与其余手指对捏的静力握持",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "rower_steady_intervals",
+          "scope": {
+            "capability_id": "strength",
+            "scope": "划船机腿躯干手臂协同的持续或分段有氧",
+            "condition": "仅支持反复传力与局部耐力，不代替较重力量工作组。"
+          }
+        }
+      ],
+      "limits": "此为检索索引；本课目标、剂量、熟悉度和恢复成立后才能判断发展或维持。"
+    },
+    {
+      "id": "power",
+      "name": "爆发力",
+      "domains": [
+        "C"
+      ],
+      "family_ids": [
+        "c_18c8bb4630",
+        "c_1d237a3faf",
+        "c_2104e997da",
+        "c_339d4a752b",
+        "c_4209bbc5d6",
+        "c_446fbfb952",
+        "c_4832900dd6",
+        "c_52e4afa8be",
+        "c_68908747c9",
+        "c_6c46b186f9",
+        "c_6da6dbd706",
+        "c_98465d87e7",
+        "c_b34d3352a2",
+        "c_bc5560ef58",
+        "c_ea0a9bb22a"
+      ],
+      "operational_assets": [
+        "barbell_jump_shrug",
+        "barbell_push_jerk",
+        "barbell_push_press",
+        "behind_neck_push_press",
+        "clean_pull_from_floor",
+        "dead_stop_kb_swing",
+        "explosive_squat",
+        "hang_high_pull",
+        "hang_power_clean",
+        "hang_power_snatch",
+        "high_hang_power_clean",
+        "jump_shrug",
+        "kb_swing",
+        "landmine_hip_driven_rotation",
+        "medicine_ball_half_kneeling_side",
+        "medicine_ball_overhead",
+        "medicine_ball_overhead_slam",
+        "medicine_ball_standing_chest",
+        "medicine_ball_standing_side",
+        "medicine_ball_step_chest",
+        "medicine_ball_step_overhead",
+        "medicine_ball_step_side",
+        "medicine_ball_tall_kneeling_chest",
+        "mid_thigh_clean_pull",
+        "mid_thigh_jump",
+        "power_clean_from_floor",
+        "power_skip",
+        "power_snatch_from_floor",
+        "single_arm_db_snatch",
+        "single_arm_kb_clean",
+        "single_arm_kb_push_press",
+        "single_arm_kb_swing",
+        "single_arm_landmine_push_press",
+        "snatch_balance",
+        "snatch_pull",
+        "split_jerk",
+        "squat_clean",
+        "standing_broad_jump_stick",
+        "standing_cable_chop",
+        "standing_cable_lift"
+      ],
+      "catalog_only": [],
+      "support_scope": [
+        {
+          "asset_id": "standing_broad_jump_stick",
+          "scope": {
+            "capability_id": "power",
+            "scope": "双脚水平推进与稳定落地",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "power_skip",
+          "scope": {
+            "capability_id": "power",
+            "scope": "step-hop节律下的主动髋伸展、单腿向上和向前爆发",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "medicine_ball_tall_kneeling_chest",
+          "scope": {
+            "capability_id": "power",
+            "scope": "水平推爆发与髋到手传力",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "medicine_ball_standing_chest",
+          "scope": {
+            "capability_id": "power",
+            "scope": "站姿水平推爆发与全身传力",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "medicine_ball_step_chest",
+          "scope": {
+            "capability_id": "power",
+            "scope": "移动到水平推爆发的衔接",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "medicine_ball_overhead",
+          "scope": {
+            "capability_id": "power",
+            "scope": "过顶爆发传力",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "medicine_ball_step_overhead",
+          "scope": {
+            "capability_id": "power",
+            "scope": "移动衔接过顶爆发",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "medicine_ball_half_kneeling_side",
+          "scope": {
+            "capability_id": "power",
+            "scope": "髋到躯干再到手的旋转传力",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "medicine_ball_standing_side",
+          "scope": {
+            "capability_id": "power",
+            "scope": "站姿旋转爆发传力",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "medicine_ball_step_side",
+          "scope": {
+            "capability_id": "power",
+            "scope": "移动到旋转爆发的衔接",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "kb_swing",
+          "scope": {
+            "capability_id": "power",
+            "scope": "连续快速髋伸展与回摆控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "dead_stop_kb_swing",
+          "scope": {
+            "capability_id": "power",
+            "scope": "每次重置的髋伸爆发及起止控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_arm_kb_swing",
+          "scope": {
+            "capability_id": "power",
+            "scope": "髋伸爆发与偏侧抓握、抗旋转",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_arm_kb_clean",
+          "scope": {
+            "capability_id": "power",
+            "scope": "快速髋伸传力及前架接收",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "hang_high_pull",
+          "scope": {
+            "capability_id": "power",
+            "scope": "垂直快速髋膝伸展及拉起",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "hang_power_clean",
+          "scope": {
+            "capability_id": "power",
+            "scope": "垂直爆发与前架接收制动",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_arm_db_snatch",
+          "scope": {
+            "capability_id": "power",
+            "scope": "单臂垂直爆发传力及头顶接收",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_arm_kb_push_press",
+          "scope": {
+            "capability_id": "power",
+            "scope": "腿髋到上肢的垂直快速传力",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_arm_landmine_push_press",
+          "scope": {
+            "capability_id": "power",
+            "scope": "腿髋到上肢的斜向快速传力",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "landmine_hip_driven_rotation",
+          "scope": {
+            "capability_id": "power",
+            "scope": "主动髋脚旋转与快速传力",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "standing_cable_chop",
+          "scope": {
+            "capability_id": "power",
+            "scope": "对角线全身爆发传力",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "standing_cable_lift",
+          "scope": {
+            "capability_id": "power",
+            "scope": "对角线全身爆发传力",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "clean_pull_from_floor",
+          "scope": {
+            "capability_id": "power",
+            "scope": "含地面第一拉的垂直爆发伸展",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "mid_thigh_clean_pull",
+          "scope": {
+            "capability_id": "power",
+            "scope": "短起点快速髋膝踝伸展",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "barbell_jump_shrug",
+          "scope": {
+            "capability_id": "power",
+            "scope": "负重跳跃式快速伸展与落地",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "high_hang_power_clean",
+          "scope": {
+            "capability_id": "power",
+            "scope": "大腿中上部短起点爆发与高位前架接收",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "power_clean_from_floor",
+          "scope": {
+            "capability_id": "power",
+            "scope": "完整地面拉起及高位前架接收",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "hang_power_snatch",
+          "scope": {
+            "capability_id": "power",
+            "scope": "双臂宽握爆发拉起至高位头顶接收",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "barbell_push_press",
+          "scope": {
+            "capability_id": "power",
+            "scope": "前架下肢驱动传力至头顶",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "barbell_push_jerk",
+          "scope": {
+            "capability_id": "power",
+            "scope": "下肢驱动后重新屈膝的头顶接收",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "power_snatch_from_floor",
+          "scope": {
+            "capability_id": "power",
+            "scope": "地面完整拉起与高位头顶接收",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "snatch_pull",
+          "scope": {
+            "capability_id": "power",
+            "scope": "宽抓举握距的地面快速伸展拉起，不接收",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "snatch_balance",
+          "scope": {
+            "capability_id": "power",
+            "scope": "轻驱动卸杠后的快速宽握深蹲头顶接收",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "squat_clean",
+          "scope": {
+            "capability_id": "power",
+            "scope": "地面完整拉起与深蹲前架接收",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "split_jerk",
+          "scope": {
+            "capability_id": "power",
+            "scope": "下肢驱动后的分腿头顶接收",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        }
+      ],
+      "limits": "此为检索索引；本课目标、剂量、熟悉度和恢复成立后才能判断发展或维持。"
+    },
+    {
+      "id": "speed",
+      "name": "速度",
+      "domains": [
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "family_ids": [
+        "d_66dce2df18",
+        "d_6e3a2a1860",
+        "d_7549600851",
+        "d_ba95c198d8",
+        "d_bbfcf46470",
+        "d_db61a2a57d",
+        "e_b5ee2649cb",
+        "e_d2fd584351",
+        "f_cddb554e9f",
+        "f_decf60a27c",
+        "g_7f3212c6db"
+      ],
+      "operational_assets": [
+        "acceleration_fall_start",
+        "acceleration_split_start",
+        "backward_run",
+        "deceleration_run_stick",
+        "flying_sprint",
+        "freestyle_fast_25",
+        "high_knee_march",
+        "high_knee_run",
+        "linear_skip",
+        "planned_45_cut",
+        "reactive_two_choice_cut",
+        "repetition_run",
+        "shuffle_stick",
+        "shuttle_conditioning",
+        "speed_endurance_150m",
+        "sprint_30m",
+        "straight_leg_walk",
+        "strides",
+        "swim_100m_speed_endurance",
+        "swim_50m_fast_repeats",
+        "swim_pushoff_streamline",
+        "uphill_speed_repetitions"
+      ],
+      "catalog_only": [],
+      "support_scope": [
+        {
+          "asset_id": "high_knee_march",
+          "scope": {
+            "capability_id": "speed",
+            "scope": "行进节律与支撑下的髋屈控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "linear_skip",
+          "scope": {
+            "capability_id": "speed",
+            "scope": "直线节律与轻跳支撑",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "high_knee_run",
+          "scope": {
+            "capability_id": "speed",
+            "scope": "跑步节律与快速交替支撑",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "straight_leg_walk",
+          "scope": {
+            "capability_id": "speed",
+            "scope": "后链动态范围与支撑节律",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "backward_run",
+          "scope": {
+            "capability_id": "speed",
+            "scope": "向后移动时的跑步节律与交替支撑控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "acceleration_split_start",
+          "scope": {
+            "capability_id": "speed",
+            "scope": "直线加速",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "acceleration_fall_start",
+          "scope": {
+            "capability_id": "speed",
+            "scope": "直线加速",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "deceleration_run_stick",
+          "scope": {
+            "capability_id": "speed",
+            "scope": "吸收前向动量并停稳",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "shuffle_stick",
+          "scope": {
+            "capability_id": "speed",
+            "scope": "侧向推进与制动",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "planned_45_cut",
+          "scope": {
+            "capability_id": "speed",
+            "scope": "预设方向下的减速与再次加速",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "reactive_two_choice_cut",
+          "scope": {
+            "capability_id": "speed",
+            "scope": "外部提示下的感知决策与转向",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "flying_sprint",
+          "scope": {
+            "capability_id": "speed",
+            "scope": "助跑后近最大速度跑的技术与输出",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "shuttle_conditioning",
+          "scope": {
+            "capability_id": "speed",
+            "scope": "在重复加速、减速和转向中维持体能输出。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "strides",
+          "scope": {
+            "capability_id": "speed",
+            "scope": "以短、流畅、非全力快速接触练习跑姿与较快节奏。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "repetition_run",
+          "scope": {
+            "capability_id": "speed",
+            "scope": "在充分恢复后反复完成较快跑段，发展速度与跑动经济性。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "uphill_speed_repetitions",
+          "scope": {
+            "capability_id": "speed",
+            "scope": "在熟悉缓坡上反复完成短、较快、流畅跑段，发展推蹬与跑动经济性。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "freestyle_fast_25",
+          "scope": {
+            "capability_id": "speed",
+            "scope": "在充分恢复下重复较快整泳，发展短距离速度质量。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "sprint_30m",
+          "scope": {
+            "capability_id": "speed",
+            "scope": "静止起跑后的短直线加速与快速跑",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "speed_endurance_150m",
+          "scope": {
+            "capability_id": "speed",
+            "scope": "较快跑速下维持动作与输出的短速度耐力",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "swim_50m_fast_repeats",
+          "scope": {
+            "capability_id": "speed",
+            "scope": "充分恢复后的50米自由泳速度质量",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "swim_100m_speed_endurance",
+          "scope": {
+            "capability_id": "speed",
+            "scope": "较快自由泳100米中的持续速度质量",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "swim_pushoff_streamline",
+          "scope": {
+            "capability_id": "speed",
+            "scope": "水中蹬壁后的流线与出水整泳衔接",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        }
+      ],
+      "limits": "此为检索索引；本课目标、剂量、熟悉度和恢复成立后才能判断发展或维持。"
+    },
+    {
+      "id": "endurance",
+      "name": "耐力",
+      "domains": [
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "family_ids": [
+        "d_7549600851",
+        "e_0d5bf13944",
+        "e_85b44a7dcc",
+        "e_9265dd449f",
+        "e_97a7e0929f",
+        "e_d2fd584351",
+        "e_d94c16b4da",
+        "e_dee736693c",
+        "f_2a50a47020",
+        "f_481d71260b",
+        "f_8662630a2a",
+        "f_c31b80da5a",
+        "f_cddb554e9f",
+        "g_289bd02cb5",
+        "g_7e4b1d35a9",
+        "g_7f3212c6db",
+        "g_883e2db03b",
+        "g_8ad0e70db2",
+        "g_c7d96b3907",
+        "g_e5552472b0"
+      ],
+      "operational_assets": [
+        "aerobic_run_intervals",
+        "airbike_repeatable_intervals",
+        "airbike_steady",
+        "battle_rope_intervals",
+        "easy_run",
+        "extensive_tempo_run",
+        "freestyle_aerobic_repeats",
+        "freestyle_continuous",
+        "freestyle_fast_25",
+        "freestyle_long_repeats",
+        "freestyle_short_repeats",
+        "freestyle_strong_repeats",
+        "long_easy_run",
+        "progression_run",
+        "repetition_run",
+        "rower_steady_intervals",
+        "run_cooldown",
+        "run_marathon_pace",
+        "run_walk",
+        "run_walk_progression",
+        "run_warmup",
+        "shuttle_conditioning",
+        "sled_push_conditioning",
+        "slideboard_conditioning",
+        "speed_endurance_150m",
+        "swim_1000m_continuous",
+        "swim_100m_speed_endurance",
+        "swim_50m_fast_repeats",
+        "swim_kick_set",
+        "swim_pace_repeats",
+        "swim_warmup_cooldown",
+        "threshold_continuous",
+        "threshold_cruise_intervals",
+        "timed_fartlek",
+        "treadmill_incline_walk",
+        "uphill_speed_repetitions"
+      ],
+      "catalog_only": [
+        "run_time_trial"
+      ],
+      "support_scope": [
+        {
+          "asset_id": "airbike_steady",
+          "scope": {
+            "capability_id": "endurance",
+            "scope": "以熟悉循环动作增加可持续有氧工作。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "airbike_repeatable_intervals",
+          "scope": {
+            "capability_id": "endurance",
+            "scope": "反复维持较强循环输出。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "sled_push_conditioning",
+          "scope": {
+            "capability_id": "endurance",
+            "scope": "在负重前向推进中重复下肢工作。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "slideboard_conditioning",
+          "scope": {
+            "capability_id": "endurance",
+            "scope": "在侧向蹬伸与接收中完成重复体能工作。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "extensive_tempo_run",
+          "scope": {
+            "capability_id": "endurance",
+            "scope": "以明显低于全力的短直线跑段和步行恢复，完成可重复体能工作。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "shuttle_conditioning",
+          "scope": {
+            "capability_id": "endurance",
+            "scope": "在重复加速、减速和转向中维持体能输出。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "run_walk",
+          "scope": {
+            "capability_id": "endurance",
+            "scope": "以轻松跑强度累积专项跑动，用步行分隔工作段。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "easy_run",
+          "scope": {
+            "capability_id": "endurance",
+            "scope": "发展与维持跑步专项持续能力及重复接触耐受。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "long_easy_run",
+          "scope": {
+            "capability_id": "endurance",
+            "scope": "延长轻松强度下的单课持续跑，发展较长跑动的专项耐力。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "threshold_cruise_intervals",
+          "scope": {
+            "capability_id": "endurance",
+            "scope": "用短恢复分隔T阈强度跑段，累积舒适但吃力的持续跑工作。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "threshold_continuous",
+          "scope": {
+            "capability_id": "endurance",
+            "scope": "在T阈强度下连续完成稳定跑段，发展较长时间维持舒适吃力节奏的能力。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "aerobic_run_intervals",
+          "scope": {
+            "capability_id": "endurance",
+            "scope": "用比T更强的可重复跑段和主动恢复，发展有氧功率。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "repetition_run",
+          "scope": {
+            "capability_id": "endurance",
+            "scope": "在充分恢复后反复完成较快跑段，发展速度与跑动经济性。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "run_warmup",
+          "scope": {
+            "capability_id": "endurance",
+            "scope": "用实际走跑与熟悉动作逐步进入本课工作。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "run_cooldown",
+          "scope": {
+            "capability_id": "endurance",
+            "scope": "在实际走跑中降低努力并结束本课。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "timed_fartlek",
+          "scope": {
+            "capability_id": "endurance",
+            "scope": "以不同长度的吃力工作段和轻松跑交替，累积I目的有氧工作。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "uphill_speed_repetitions",
+          "scope": {
+            "capability_id": "endurance",
+            "scope": "在熟悉缓坡上反复完成短、较快、流畅跑段，发展推蹬与跑动经济性。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "progression_run",
+          "scope": {
+            "capability_id": "endurance",
+            "scope": "在不中断的跑段中逐步提高努力，并受控进入短T段。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "freestyle_short_repeats",
+          "scope": {
+            "capability_id": "endurance",
+            "scope": "在较短组距与明确壁边休息中累积自由泳工作。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "freestyle_aerobic_repeats",
+          "scope": {
+            "capability_id": "endurance",
+            "scope": "以相对较长组距和短恢复积累水中持续有氧工作。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "freestyle_long_repeats",
+          "scope": {
+            "capability_id": "endurance",
+            "scope": "延长一次持续水中工作，并减少相同总量下的休息频次。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "freestyle_continuous",
+          "scope": {
+            "capability_id": "endurance",
+            "scope": "在不依赖壁边组间恢复的条件下维持整泳。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "freestyle_strong_repeats",
+          "scope": {
+            "capability_id": "endurance",
+            "scope": "用确定组距与恢复保持较强水中输出。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "freestyle_fast_25",
+          "scope": {
+            "capability_id": "endurance",
+            "scope": "在充分恢复下重复较快整泳，发展短距离速度质量。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "speed_endurance_150m",
+          "scope": {
+            "capability_id": "endurance",
+            "scope": "较快跑速下维持动作与输出的短速度耐力",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "run_marathon_pace",
+          "scope": {
+            "capability_id": "endurance",
+            "scope": "当前已支持M努力的较长持续跑",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "run_time_trial",
+          "scope": {
+            "capability_id": "endurance",
+            "scope": "目录中的跑步计时评估任务",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "run_walk_progression",
+          "scope": {
+            "capability_id": "endurance",
+            "scope": "延长轻松跑段的走跑桥接",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "swim_kick_set",
+          "scope": {
+            "capability_id": "endurance",
+            "scope": "自由泳交替打腿的独立重复",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "swim_50m_fast_repeats",
+          "scope": {
+            "capability_id": "endurance",
+            "scope": "充分恢复后的50米自由泳速度质量",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "swim_100m_speed_endurance",
+          "scope": {
+            "capability_id": "endurance",
+            "scope": "较快自由泳100米中的持续速度质量",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "swim_pace_repeats",
+          "scope": {
+            "capability_id": "endurance",
+            "scope": "以已有当前可重复配速保持100米整泳一致性",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "swim_1000m_continuous",
+          "scope": {
+            "capability_id": "endurance",
+            "scope": "较长连续自由泳的节律与耐力",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "swim_warmup_cooldown",
+          "scope": {
+            "capability_id": "endurance",
+            "scope": "泳课的轻松进入与退出部件",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "rower_steady_intervals",
+          "scope": {
+            "capability_id": "endurance",
+            "scope": "划船机腿躯干手臂协同的持续或分段有氧",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        }
+      ],
+      "limits": "此为检索索引；本课目标、剂量、熟悉度和恢复成立后才能判断发展或维持。"
+    },
+    {
+      "id": "mobility",
+      "name": "活动度",
+      "domains": [
+        "A",
+        "F"
+      ],
+      "family_ids": [
+        "a_2048c6c665",
+        "a_35171287d8",
+        "a_44bde038a2",
+        "a_5b2e8c47f1",
+        "a_6281c5a46a",
+        "a_869566d5d0",
+        "a_967baf518b",
+        "a_cede393a1a",
+        "a_e239076501",
+        "a_f8f39dc51e",
+        "f_481d71260b"
+      ],
+      "operational_assets": [
+        "90_90_hip_switch",
+        "90_90_rear_foot_lift_off",
+        "adductor_rock",
+        "adductor_rockback",
+        "alternating_spiderman",
+        "ankle_alphabet_circles",
+        "ankle_four_way_iso",
+        "ball_roll_pec",
+        "banded_talus_mobilization",
+        "bodyweight_squat_prep",
+        "box_hip_flexor_stretch",
+        "cat_cow",
+        "crocodile_breathing",
+        "dowel_hip_hinge",
+        "dowel_overhead_squat",
+        "floor_slide",
+        "foam_roll_adductor",
+        "foam_roll_calf",
+        "foam_roll_glute",
+        "foam_roll_hamstring",
+        "foam_roll_posterior_shoulder",
+        "foam_roll_quad",
+        "foam_roll_thoracic",
+        "half_kneeling_ankle_mobility",
+        "half_kneeling_hip_flexor_stretch",
+        "hip_90_90_stretch",
+        "hip_cars",
+        "hip_hinge_drill",
+        "intercostal_breath_360",
+        "knee_hug_prep",
+        "knee_hug_walk",
+        "lateral_squat_prep",
+        "leg_cradle_prep",
+        "leg_cradle_walk",
+        "mat_pattern_install_series",
+        "plantar_fascia_release",
+        "quadruped_hip_circles",
+        "quadruped_t_spine_rotation",
+        "quadruped_tspine_rotation",
+        "reverse_lunge_hamstring_prep",
+        "short_foot_activation",
+        "short_range_floor_slide",
+        "si_hip_capsule_release",
+        "side_lying_open_book",
+        "single_leg_rdl_prep",
+        "spiderman_step",
+        "split_squat_isometric_prep",
+        "supine_floor_slide",
+        "supine_knees_bent_breathing",
+        "supported_90_90_hip_switch",
+        "supported_90_90_stretch",
+        "swim_warmup_cooldown",
+        "wall_hamstring_stretch",
+        "wall_supported_90_90_breathing",
+        "world_greatest_stretch"
+      ],
+      "catalog_only": [],
+      "support_scope": [
+        {
+          "asset_id": "foam_roll_glute",
+          "scope": {
+            "capability_id": "mobility",
+            "scope": "臀髋软组织短时准备",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "foam_roll_hamstring",
+          "scope": {
+            "capability_id": "mobility",
+            "scope": "腿后侧软组织短时准备",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "foam_roll_calf",
+          "scope": {
+            "capability_id": "mobility",
+            "scope": "小腿软组织短时准备",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "foam_roll_quad",
+          "scope": {
+            "capability_id": "mobility",
+            "scope": "股四头肌软组织短时准备",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "foam_roll_adductor",
+          "scope": {
+            "capability_id": "mobility",
+            "scope": "内收肌软组织短时准备",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "foam_roll_thoracic",
+          "scope": {
+            "capability_id": "mobility",
+            "scope": "上背软组织与胸段准备短时准备",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "foam_roll_posterior_shoulder",
+          "scope": {
+            "capability_id": "mobility",
+            "scope": "肩后软组织短时准备",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "ball_roll_pec",
+          "scope": {
+            "capability_id": "mobility",
+            "scope": "胸前局部软组织准备",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "supine_knees_bent_breathing",
+          "scope": {
+            "capability_id": "mobility",
+            "scope": "低负荷下的呼吸与躯干位置准备",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "wall_supported_90_90_breathing",
+          "scope": {
+            "capability_id": "mobility",
+            "scope": "下肢有支撑时的呼吸与胸廓、骨盆位置协调",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "crocodile_breathing",
+          "scope": {
+            "capability_id": "mobility",
+            "scope": "借地面触觉反馈练习舒适呼吸",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "hip_90_90_stretch",
+          "scope": {
+            "capability_id": "mobility",
+            "scope": "髋内外旋范围准备",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "supported_90_90_stretch",
+          "scope": {
+            "capability_id": "mobility",
+            "scope": "髋内外旋范围准备",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "box_hip_flexor_stretch",
+          "scope": {
+            "capability_id": "mobility",
+            "scope": "髋前侧范围准备",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "half_kneeling_hip_flexor_stretch",
+          "scope": {
+            "capability_id": "mobility",
+            "scope": "髋前侧范围准备",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "adductor_rockback",
+          "scope": {
+            "capability_id": "mobility",
+            "scope": "髋内收肌与侧向范围准备",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "alternating_spiderman",
+          "scope": {
+            "capability_id": "mobility",
+            "scope": "髋前侧、内收肌与弓步位整合范围",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "wall_hamstring_stretch",
+          "scope": {
+            "capability_id": "mobility",
+            "scope": "腿后侧范围准备",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "quadruped_t_spine_rotation",
+          "scope": {
+            "capability_id": "mobility",
+            "scope": "胸段旋转与躯干分段控制",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "floor_slide",
+          "scope": {
+            "capability_id": "mobility",
+            "scope": "肩胛与上肢抬举控制",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "short_range_floor_slide",
+          "scope": {
+            "capability_id": "mobility",
+            "scope": "肩胛与上肢抬举控制",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "bodyweight_squat_prep",
+          "scope": {
+            "capability_id": "mobility",
+            "scope": "双侧蹲起范围与控制",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "split_squat_isometric_prep",
+          "scope": {
+            "capability_id": "mobility",
+            "scope": "分腿位髋与膝控制",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "lateral_squat_prep",
+          "scope": {
+            "capability_id": "mobility",
+            "scope": "额状面髋范围与侧向承重控制",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "hip_hinge_drill",
+          "scope": {
+            "capability_id": "mobility",
+            "scope": "髋主导范围与躯干控制",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "single_leg_rdl_prep",
+          "scope": {
+            "capability_id": "mobility",
+            "scope": "单腿髋铰链与骨盆控制",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "reverse_lunge_hamstring_prep",
+          "scope": {
+            "capability_id": "mobility",
+            "scope": "弓步与腿后侧范围整合",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "knee_hug_prep",
+          "scope": {
+            "capability_id": "mobility",
+            "scope": "髋屈与支撑腿伸展控制",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "leg_cradle_prep",
+          "scope": {
+            "capability_id": "mobility",
+            "scope": "髋外旋与单腿支撑整合",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "half_kneeling_ankle_mobility",
+          "scope": {
+            "capability_id": "mobility",
+            "scope": "踝背屈主动范围准备",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "supported_90_90_hip_switch",
+          "scope": {
+            "capability_id": "mobility",
+            "scope": "低负荷主动髋内外旋切换",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "90_90_hip_switch",
+          "scope": {
+            "capability_id": "mobility",
+            "scope": "坐姿髋内外旋主动范围与转换控制",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "quadruped_hip_circles",
+          "scope": {
+            "capability_id": "mobility",
+            "scope": "髋屈伸、外展和旋转相连的主动控制",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "90_90_rear_foot_lift_off",
+          "scope": {
+            "capability_id": "mobility",
+            "scope": "坐姿后侧髋内旋的主动末端控制",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "swim_warmup_cooldown",
+          "scope": {
+            "capability_id": "mobility",
+            "scope": "泳课的轻松进入与退出部件",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        }
+      ],
+      "limits": "此为检索索引；本课目标、剂量、熟悉度和恢复成立后才能判断发展或维持。"
+    },
+    {
+      "id": "balance",
+      "name": "平衡",
+      "domains": [
+        "A",
+        "B",
+        "D",
+        "G"
+      ],
+      "family_ids": [
+        "a_122c3c33b3",
+        "a_3a8f20199e",
+        "a_44bde038a2",
+        "a_967baf518b",
+        "b_13b23f2e2a",
+        "b_3744f46ba5",
+        "b_3d9a6f21c8",
+        "b_5647b04699",
+        "b_7b0c9a354a",
+        "b_800f1ebda9",
+        "d_7af768ecf4",
+        "g_289bd02cb5"
+      ],
+      "operational_assets": [
+        "bodyweight_squat_prep",
+        "cable_single_leg_rdl",
+        "carioca",
+        "dowel_hip_hinge",
+        "dowel_overhead_squat",
+        "hip_airplane",
+        "hip_hinge_drill",
+        "knee_hug_prep",
+        "knee_hug_walk",
+        "landmine_lateral_lunge",
+        "landmine_single_leg_rdl",
+        "lateral_march",
+        "lateral_shuffle",
+        "lateral_skip",
+        "lateral_squat",
+        "lateral_squat_prep",
+        "leg_cradle_prep",
+        "leg_cradle_walk",
+        "mini_band_walk",
+        "reverse_lunge_hamstring_prep",
+        "single_leg_box_squat",
+        "single_leg_rdl",
+        "single_leg_rdl_prep",
+        "slideboard_conditioning",
+        "split_squat_isometric_prep",
+        "step_up",
+        "supported_hip_airplane",
+        "supported_single_leg_box_squat",
+        "supported_single_leg_rdl",
+        "supported_single_leg_rdl_prep"
+      ],
+      "catalog_only": [],
+      "support_scope": [
+        {
+          "asset_id": "mini_band_walk",
+          "scope": {
+            "capability_id": "balance",
+            "scope": "髋侧向控制准备",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "bodyweight_squat_prep",
+          "scope": {
+            "capability_id": "balance",
+            "scope": "双侧蹲起范围与控制",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "split_squat_isometric_prep",
+          "scope": {
+            "capability_id": "balance",
+            "scope": "分腿位髋与膝控制",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "lateral_squat_prep",
+          "scope": {
+            "capability_id": "balance",
+            "scope": "额状面髋范围与侧向承重控制",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "hip_hinge_drill",
+          "scope": {
+            "capability_id": "balance",
+            "scope": "髋主导范围与躯干控制",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "single_leg_rdl_prep",
+          "scope": {
+            "capability_id": "balance",
+            "scope": "单腿髋铰链与骨盆控制",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "reverse_lunge_hamstring_prep",
+          "scope": {
+            "capability_id": "balance",
+            "scope": "弓步与腿后侧范围整合",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "knee_hug_prep",
+          "scope": {
+            "capability_id": "balance",
+            "scope": "髋屈与支撑腿伸展控制",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "leg_cradle_prep",
+          "scope": {
+            "capability_id": "balance",
+            "scope": "髋外旋与单腿支撑整合",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "supported_single_leg_rdl_prep",
+          "scope": {
+            "capability_id": "balance",
+            "scope": "单腿髋铰链与骨盆控制",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "lateral_march",
+          "scope": {
+            "capability_id": "balance",
+            "scope": "侧向推进与交替支撑节律",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "lateral_skip",
+          "scope": {
+            "capability_id": "balance",
+            "scope": "侧向推地与跳步节律",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "lateral_shuffle",
+          "scope": {
+            "capability_id": "balance",
+            "scope": "侧向推进与制动准备",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "carioca",
+          "scope": {
+            "capability_id": "balance",
+            "scope": "侧向行进与髋转向协调",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_leg_box_squat",
+          "scope": {
+            "capability_id": "balance",
+            "scope": "真正单腿支撑下的膝主导力量与控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "supported_single_leg_box_squat",
+          "scope": {
+            "capability_id": "balance",
+            "scope": "较低平衡或较短范围的单腿蹲",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "lateral_squat",
+          "scope": {
+            "capability_id": "balance",
+            "scope": "额状面腿部力量及侧向重心控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "landmine_lateral_lunge",
+          "scope": {
+            "capability_id": "balance",
+            "scope": "额状面腿力及迈步接收、回推",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_leg_rdl",
+          "scope": {
+            "capability_id": "balance",
+            "scope": "单腿后链力量、骨盆控制与平衡",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "supported_single_leg_rdl",
+          "scope": {
+            "capability_id": "balance",
+            "scope": "降低平衡限制的单腿后链力量",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "landmine_single_leg_rdl",
+          "scope": {
+            "capability_id": "balance",
+            "scope": "沿杠杆路径的单腿后链力量",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "cable_single_leg_rdl",
+          "scope": {
+            "capability_id": "balance",
+            "scope": "水平牵引下的单腿后链力量",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "hip_airplane",
+          "scope": {
+            "capability_id": "balance",
+            "scope": "在单腿铰链支撑下主动控制髋内外旋和骨盆开合。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "supported_hip_airplane",
+          "scope": {
+            "capability_id": "balance",
+            "scope": "用稳定扶持降低平衡要求，保留承重髋的主动旋转控制。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "slideboard_conditioning",
+          "scope": {
+            "capability_id": "balance",
+            "scope": "在侧向蹬伸与接收中完成重复体能工作。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        }
+      ],
+      "limits": "此为检索索引；本课目标、剂量、熟悉度和恢复成立后才能判断发展或维持。"
+    },
+    {
+      "id": "coordination",
+      "name": "协调",
+      "domains": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "family_ids": [
+        "a_08a0063822",
+        "a_122c3c33b3",
+        "a_1f7c3a90d2",
+        "a_35171287d8",
+        "a_3a8f20199e",
+        "a_6281c5a46a",
+        "a_967baf518b",
+        "a_c93cd2d16e",
+        "a_e239076501",
+        "b_0f15066cca",
+        "b_0f54310506",
+        "b_14ed33f029",
+        "b_1921a6b072",
+        "b_211cb392c1",
+        "b_22692698a5",
+        "b_2b12970e02",
+        "b_2e9b6d0e2f",
+        "c_52e4afa8be",
+        "c_6da6dbd706",
+        "d_66dce2df18",
+        "d_7af768ecf4",
+        "e_b5ee2649cb",
+        "f_1c2d38bbbb",
+        "f_2a50a47020",
+        "f_53900c7e70",
+        "f_b3351fee2f",
+        "f_breaststroke_technique",
+        "f_decf60a27c"
+      ],
+      "operational_assets": [
+        "ab_dolly_rollout",
+        "ab_wheel_rollout",
+        "backward_run",
+        "bear_crawl",
+        "bear_crawl_prep",
+        "bird_dog",
+        "body_saw",
+        "bodyweight_squat_prep",
+        "box_position_cable_chop",
+        "box_position_cable_lift",
+        "carioca",
+        "carry",
+        "cat_cow",
+        "contralateral_cable_row",
+        "crocodile_breathing",
+        "dead_bug",
+        "dead_bug_alternating",
+        "dead_bug_band_pulldown",
+        "dead_bug_bilateral_arms",
+        "dead_bug_bilateral_arms_legs",
+        "dead_bug_bilateral_legs",
+        "dead_bug_heel_tap",
+        "dowel_hip_hinge",
+        "dowel_overhead_squat",
+        "floor_slide",
+        "freestyle_fingertip_drag",
+        "freestyle_focus_swim",
+        "freestyle_front_scull",
+        "freestyle_touch_turn",
+        "front_plank",
+        "front_rack_carry",
+        "full_get_up",
+        "half_get_up",
+        "half_kneeling_cable_chop",
+        "half_kneeling_cable_lift",
+        "half_kneeling_single_arm_cable_row",
+        "high_knee_march",
+        "high_knee_run",
+        "hip_hinge_drill",
+        "inchworm_prep",
+        "incline_forearm_plank",
+        "intercostal_breath_360",
+        "knee_hug_prep",
+        "knee_hug_walk",
+        "landmine_antirotation",
+        "lateral_march",
+        "lateral_shuffle",
+        "lateral_skip",
+        "leg_cradle_prep",
+        "leg_cradle_walk",
+        "leg_lower",
+        "linear_skip",
+        "mini_band_walk",
+        "overhead_carry",
+        "pallof_press",
+        "plank_reach",
+        "power_skip",
+        "quadruped_t_spine_rotation",
+        "quadruped_tspine_rotation",
+        "quarter_get_up",
+        "reverse_lunge_hamstring_prep",
+        "seated_cable_row",
+        "short_lever_pallof_hold",
+        "short_lever_side_plank",
+        "short_range_floor_slide",
+        "side_lying_open_book",
+        "side_plank",
+        "side_plank_row",
+        "single_arm_cable_row",
+        "single_arm_single_leg_cable_row",
+        "single_leg_rdl_prep",
+        "snatch_balance",
+        "split_squat_isometric_prep",
+        "split_stance_cable_chop",
+        "split_stance_cable_lift",
+        "stability_ball_rollout",
+        "straight_leg_walk",
+        "strides",
+        "suitcase_carry",
+        "supine_floor_slide",
+        "supine_knees_bent_breathing",
+        "supported_single_leg_rdl_prep",
+        "swim_breaststroke_breathe_kick_slide",
+        "swim_breaststroke_controlled",
+        "swim_breaststroke_kick_deck",
+        "swim_breaststroke_kick_supine",
+        "swim_breaststroke_pull_standing",
+        "swim_breaststroke_two_kicks_one_pull",
+        "swim_kick_set",
+        "swim_pushoff_streamline",
+        "tall_kneeling_push_pull",
+        "treadmill_backward_walk",
+        "unloaded_quarter_get_up",
+        "valslide_rollout",
+        "wall_supported_90_90_breathing",
+        "wide_half_kneeling_cable_chop",
+        "wide_half_kneeling_cable_lift"
+      ],
+      "catalog_only": [],
+      "support_scope": [
+        {
+          "asset_id": "supine_knees_bent_breathing",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "低负荷下的呼吸与躯干位置准备",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "wall_supported_90_90_breathing",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "下肢有支撑时的呼吸与胸廓、骨盆位置协调",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "crocodile_breathing",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "借地面触觉反馈练习舒适呼吸",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "quadruped_t_spine_rotation",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "胸段旋转与躯干分段控制",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "floor_slide",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "肩胛与上肢抬举控制",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "short_range_floor_slide",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "肩胛与上肢抬举控制",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "leg_lower",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "腿部移动时维持骨盆与躯干控制",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "mini_band_walk",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "髋侧向控制准备",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "bodyweight_squat_prep",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "双侧蹲起范围与控制",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "split_squat_isometric_prep",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "分腿位髋与膝控制",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "hip_hinge_drill",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "髋主导范围与躯干控制",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "single_leg_rdl_prep",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "单腿髋铰链与骨盆控制",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "reverse_lunge_hamstring_prep",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "弓步与腿后侧范围整合",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "knee_hug_prep",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "髋屈与支撑腿伸展控制",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "leg_cradle_prep",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "髋外旋与单腿支撑整合",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "supported_single_leg_rdl_prep",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "单腿髋铰链与骨盆控制",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "bear_crawl_prep",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "四肢交替支撑与躯干控制",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "inchworm_prep",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "腿后侧范围与上肢支撑整合",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "high_knee_march",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "行进节律与支撑下的髋屈控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "linear_skip",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "直线节律与轻跳支撑",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "high_knee_run",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "跑步节律与快速交替支撑",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "straight_leg_walk",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "后链动态范围与支撑节律",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "lateral_march",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "侧向推进与交替支撑节律",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "lateral_skip",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "侧向推地与跳步节律",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "lateral_shuffle",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "侧向推进与制动准备",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "carioca",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "侧向行进与髋转向协调",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "backward_run",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "向后移动时的跑步节律与交替支撑控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "power_skip",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "step-hop节律下的主动髋伸展、单腿向上和向前爆发",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "front_plank",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "抗伸展与支撑姿态控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "incline_forearm_plank",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "较低相对负荷的抗伸展支撑",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "stability_ball_rollout",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "变化杠杆下的动态抗伸展",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "body_saw",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "长短杠杆变化的抗伸展支撑",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "pallof_press",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "侧向阻力下的抗旋转",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "short_lever_pallof_hold",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "短手臂杠杆的抗旋转",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "plank_reach",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "从四点到三点支撑的抗旋转",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "half_kneeling_cable_chop",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "移动上肢对角线负荷时的躯干稳定",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "half_kneeling_cable_lift",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "移动上肢对角线负荷时的躯干稳定",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "split_stance_cable_chop",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "减少膝支撑后的对角线躯干稳定",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "landmine_antirotation",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "移动杠端下的抗旋转控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "side_plank",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "侧向躯干稳定",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "short_lever_side_plank",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "较短杠杆侧向躯干稳定",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "carry",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "负重行走、握力及全身姿势控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "suitcase_carry",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "负重行走与抗侧屈",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "front_rack_carry",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "前架负重行走与躯干姿势控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "quarter_get_up",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "从地面滚起到肘支撑及持铃控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "unloaded_quarter_get_up",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "无外负荷的滚起到肘支撑",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "half_get_up",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "滚起、手支撑与桥位的衔接",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "full_get_up",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "负重下从地面到站立并返回",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "side_plank_row",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "侧向支撑中控制横向拉力",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "ab_wheel_rollout",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "较长手臂杠杆的动态抗伸展",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "dead_bug_alternating",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "仰卧抗伸展与对侧肢体协调",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "dead_bug_heel_tap",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "短杠杆腿部移动中的抗伸展控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "dead_bug_bilateral_legs",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "双腿同步长杠杆抗伸展",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "dead_bug_bilateral_arms",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "固定腿位时上肢长杠杆抗伸展",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "dead_bug_bilateral_arms_legs",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "四肢同时伸展的较高抗伸展负荷",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "dead_bug_band_pulldown",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "上肢等长负荷下的交替腿部抗伸展",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "wide_half_kneeling_cable_chop",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "较稳定支撑下的对角线负荷躯干控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "wide_half_kneeling_cable_lift",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "较稳定支撑下的对角线负荷躯干控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "split_stance_cable_lift",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "下肢等长支撑下的对角线抗旋转",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_arm_cable_row",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "单臂水平拉与站姿抗旋转整合",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_arm_single_leg_cable_row",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "单腿支撑中的水平拉与抗旋转",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "half_kneeling_single_arm_cable_row",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "单臂水平拉与半跪抗旋转",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "strides",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "以短、流畅、非全力快速接触练习跑姿与较快节奏。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "freestyle_focus_swim",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "在本人已会的整泳中巩固一个具体技术要点。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "freestyle_fingertip_drag",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "通过轻触水面的指尖反馈巩固移臂路径。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "freestyle_front_scull",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "在前位小幅划水中感受手掌与前臂水压，再接整泳。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "freestyle_touch_turn",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "在已会扶壁转向与轻蹬出壁后接回整泳。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "snatch_balance",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "轻驱动卸杠后的快速宽握深蹲头顶接收",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "swim_kick_set",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "自由泳交替打腿的独立重复",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "swim_pushoff_streamline",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "水中蹬壁后的流线与出水整泳衔接",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "tall_kneeling_push_pull",
+          "scope": {
+            "capability_id": "coordination",
+            "scope": "侧向阻力下的抗旋转",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        }
+      ],
+      "limits": "此为检索索引；本课目标、剂量、熟悉度和恢复成立后才能判断发展或维持。"
+    },
+    {
+      "id": "elasticity",
+      "name": "弹性",
+      "domains": [
+        "C"
+      ],
+      "family_ids": [
+        "c_124a14e917",
+        "c_227d6d0bbe",
+        "c_30c0dbb053",
+        "c_446fbfb952",
+        "c_629d9983b0",
+        "c_6c46b186f9",
+        "c_d16ce38e33"
+      ],
+      "operational_assets": [
+        "alternate_leg_forward_bound",
+        "barbell_jump_shrug",
+        "box_jump_stick",
+        "continuous_diagonal_bound",
+        "continuous_hurdle_jump",
+        "continuous_single_leg_hop",
+        "continuous_single_leg_lateral_hop",
+        "dead_stop_kb_swing",
+        "depth_jump",
+        "diagonal_bound_bounce",
+        "diagonal_bound_stick",
+        "drop_landing_stick",
+        "explosive_squat",
+        "hurdle_jump_bounce",
+        "hurdle_jump_stick",
+        "jump_shrug",
+        "kb_swing",
+        "lateral_bound_stick",
+        "line_single_leg_hop_stick",
+        "mid_thigh_jump",
+        "pogo",
+        "short_lateral_bound_stick",
+        "single_arm_kb_swing",
+        "single_leg_box_hop_stick",
+        "single_leg_hurdle_hop_bounce",
+        "single_leg_hurdle_hop_stick",
+        "single_leg_lateral_box_hop_stick",
+        "single_leg_lateral_hurdle_hop_bounce",
+        "single_leg_lateral_hurdle_hop_stick",
+        "single_leg_lateral_line_hop_stick"
+      ],
+      "catalog_only": [],
+      "support_scope": [
+        {
+          "asset_id": "box_jump_stick",
+          "scope": {
+            "capability_id": "elasticity",
+            "scope": "双腿起跳与稳定落地",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "hurdle_jump_stick",
+          "scope": {
+            "capability_id": "elasticity",
+            "scope": "双腿跳跃与较大回落负担",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "hurdle_jump_bounce",
+          "scope": {
+            "capability_id": "elasticity",
+            "scope": "双腿离心到向心的过渡",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "continuous_hurdle_jump",
+          "scope": {
+            "capability_id": "elasticity",
+            "scope": "双腿快速弹性反应",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "line_single_leg_hop_stick",
+          "scope": {
+            "capability_id": "elasticity",
+            "scope": "同侧单腿起跳与落地控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_leg_box_hop_stick",
+          "scope": {
+            "capability_id": "elasticity",
+            "scope": "同侧单腿推进与稳定落地",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_leg_hurdle_hop_stick",
+          "scope": {
+            "capability_id": "elasticity",
+            "scope": "同侧单腿跳跃与回落吸收",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "continuous_single_leg_hop",
+          "scope": {
+            "capability_id": "elasticity",
+            "scope": "单腿连续弹性反应",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "lateral_bound_stick",
+          "scope": {
+            "capability_id": "elasticity",
+            "scope": "换腿侧向推进与单腿落地",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "short_lateral_bound_stick",
+          "scope": {
+            "capability_id": "elasticity",
+            "scope": "换腿侧向推进与单腿落地",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "diagonal_bound_stick",
+          "scope": {
+            "capability_id": "elasticity",
+            "scope": "换腿斜向推进与单腿落地",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "continuous_diagonal_bound",
+          "scope": {
+            "capability_id": "elasticity",
+            "scope": "换腿斜向弹性反应",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_leg_lateral_line_hop_stick",
+          "scope": {
+            "capability_id": "elasticity",
+            "scope": "同脚侧向与内侧落地控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "continuous_single_leg_lateral_hop",
+          "scope": {
+            "capability_id": "elasticity",
+            "scope": "同脚额状面弹性反应",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_leg_lateral_box_hop_stick",
+          "scope": {
+            "capability_id": "elasticity",
+            "scope": "同脚侧向与内侧落地控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_leg_lateral_hurdle_hop_stick",
+          "scope": {
+            "capability_id": "elasticity",
+            "scope": "同脚侧向与内侧落地控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "pogo",
+          "scope": {
+            "capability_id": "elasticity",
+            "scope": "踝主导连续弹性反应与短触地",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_leg_hurdle_hop_bounce",
+          "scope": {
+            "capability_id": "elasticity",
+            "scope": "同脚前向跳落地后，由一次小弹跳引入弹性过渡",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_leg_lateral_hurdle_hop_bounce",
+          "scope": {
+            "capability_id": "elasticity",
+            "scope": "同脚内侧与外侧跳落地后的弹性过渡",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "diagonal_bound_bounce",
+          "scope": {
+            "capability_id": "elasticity",
+            "scope": "45度换脚跨跳后的单脚弹性过渡",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "alternate_leg_forward_bound",
+          "scope": {
+            "capability_id": "elasticity",
+            "scope": "单脚交替支撑下的纯前向水平推进与连续弹性输出",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "drop_landing_stick",
+          "scope": {
+            "capability_id": "elasticity",
+            "scope": "承受外部落差造成的双脚落地负荷并吸收停稳",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "depth_jump",
+          "scope": {
+            "capability_id": "elasticity",
+            "scope": "外部下落负荷后的快速双脚垂直反跳",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "kb_swing",
+          "scope": {
+            "capability_id": "elasticity",
+            "scope": "连续快速髋伸展与回摆控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "dead_stop_kb_swing",
+          "scope": {
+            "capability_id": "elasticity",
+            "scope": "每次重置的髋伸爆发及起止控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_arm_kb_swing",
+          "scope": {
+            "capability_id": "elasticity",
+            "scope": "髋伸爆发与偏侧抓握、抗旋转",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "barbell_jump_shrug",
+          "scope": {
+            "capability_id": "elasticity",
+            "scope": "负重跳跃式快速伸展与落地",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        }
+      ],
+      "limits": "此为检索索引；本课目标、剂量、熟悉度和恢复成立后才能判断发展或维持。"
+    },
+    {
+      "id": "rotation",
+      "name": "身体旋转能力",
+      "domains": [
+        "A",
+        "B",
+        "C"
+      ],
+      "family_ids": [
+        "a_2048c6c665",
+        "a_5b2e8c47f1",
+        "b_1921a6b072",
+        "b_211cb392c1",
+        "b_2b12970e02",
+        "b_40f14e5756",
+        "b_7b0c9a354a",
+        "c_1d237a3faf",
+        "c_4832900dd6"
+      ],
+      "operational_assets": [
+        "90_90_hip_switch",
+        "90_90_rear_foot_lift_off",
+        "box_position_cable_chop",
+        "box_position_cable_lift",
+        "controlled_standing_cable_chop",
+        "controlled_standing_cable_lift",
+        "half_kneeling_cable_chop",
+        "half_kneeling_cable_lift",
+        "hip_airplane",
+        "hip_cars",
+        "landmine_antirotation",
+        "landmine_hip_driven_rotation",
+        "mat_pattern_install_series",
+        "medicine_ball_half_kneeling_side",
+        "medicine_ball_standing_side",
+        "medicine_ball_step_side",
+        "pallof_press",
+        "plank_reach",
+        "quadruped_hip_circles",
+        "short_lever_pallof_hold",
+        "side_plank_row",
+        "split_stance_cable_chop",
+        "split_stance_cable_lift",
+        "standing_cable_chop",
+        "standing_cable_lift",
+        "supported_90_90_hip_switch",
+        "supported_hip_airplane",
+        "tall_kneeling_push_pull",
+        "wide_half_kneeling_cable_chop",
+        "wide_half_kneeling_cable_lift"
+      ],
+      "catalog_only": [],
+      "support_scope": [
+        {
+          "asset_id": "supported_90_90_hip_switch",
+          "scope": {
+            "capability_id": "rotation",
+            "scope": "低负荷主动髋内外旋切换",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "90_90_hip_switch",
+          "scope": {
+            "capability_id": "rotation",
+            "scope": "坐姿髋内外旋主动范围与转换控制",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "quadruped_hip_circles",
+          "scope": {
+            "capability_id": "rotation",
+            "scope": "髋屈伸、外展和旋转相连的主动控制",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "90_90_rear_foot_lift_off",
+          "scope": {
+            "capability_id": "rotation",
+            "scope": "坐姿后侧髋内旋的主动末端控制",
+            "condition": "准备和低疲劳控制支持后续任务；不能凭本项短剂量单独宣称力量、速度或完整活动度发展。"
+          }
+        },
+        {
+          "asset_id": "medicine_ball_half_kneeling_side",
+          "scope": {
+            "capability_id": "rotation",
+            "scope": "髋到躯干再到手的旋转传力",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "medicine_ball_standing_side",
+          "scope": {
+            "capability_id": "rotation",
+            "scope": "站姿旋转爆发传力",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "medicine_ball_step_side",
+          "scope": {
+            "capability_id": "rotation",
+            "scope": "移动到旋转爆发的衔接",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "hip_airplane",
+          "scope": {
+            "capability_id": "rotation",
+            "scope": "在单腿铰链支撑下主动控制髋内外旋和骨盆开合。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "supported_hip_airplane",
+          "scope": {
+            "capability_id": "rotation",
+            "scope": "用稳定扶持降低平衡要求，保留承重髋的主动旋转控制。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "pallof_press",
+          "scope": {
+            "capability_id": "rotation",
+            "scope": "侧向阻力下的抗旋转",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "short_lever_pallof_hold",
+          "scope": {
+            "capability_id": "rotation",
+            "scope": "短手臂杠杆的抗旋转",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "plank_reach",
+          "scope": {
+            "capability_id": "rotation",
+            "scope": "从四点到三点支撑的抗旋转",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "half_kneeling_cable_chop",
+          "scope": {
+            "capability_id": "rotation",
+            "scope": "移动上肢对角线负荷时的躯干稳定",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "half_kneeling_cable_lift",
+          "scope": {
+            "capability_id": "rotation",
+            "scope": "移动上肢对角线负荷时的躯干稳定",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "split_stance_cable_chop",
+          "scope": {
+            "capability_id": "rotation",
+            "scope": "减少膝支撑后的对角线躯干稳定",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "landmine_antirotation",
+          "scope": {
+            "capability_id": "rotation",
+            "scope": "移动杠端下的抗旋转控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "side_plank_row",
+          "scope": {
+            "capability_id": "rotation",
+            "scope": "侧向支撑中控制横向拉力",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "wide_half_kneeling_cable_chop",
+          "scope": {
+            "capability_id": "rotation",
+            "scope": "较稳定支撑下的对角线负荷躯干控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "wide_half_kneeling_cable_lift",
+          "scope": {
+            "capability_id": "rotation",
+            "scope": "较稳定支撑下的对角线负荷躯干控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "split_stance_cable_lift",
+          "scope": {
+            "capability_id": "rotation",
+            "scope": "下肢等长支撑下的对角线抗旋转",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "controlled_standing_cable_chop",
+          "scope": {
+            "capability_id": "rotation",
+            "scope": "脚髋与上肢协同的受控对角线旋转",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "controlled_standing_cable_lift",
+          "scope": {
+            "capability_id": "rotation",
+            "scope": "脚髋与上肢协同的受控对角线旋转",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "landmine_hip_driven_rotation",
+          "scope": {
+            "capability_id": "rotation",
+            "scope": "主动髋脚旋转与快速传力",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "standing_cable_chop",
+          "scope": {
+            "capability_id": "rotation",
+            "scope": "对角线全身爆发传力",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "standing_cable_lift",
+          "scope": {
+            "capability_id": "rotation",
+            "scope": "对角线全身爆发传力",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "tall_kneeling_push_pull",
+          "scope": {
+            "capability_id": "rotation",
+            "scope": "侧向阻力下的抗旋转",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        }
+      ],
+      "limits": "此为检索索引；本课目标、剂量、熟悉度和恢复成立后才能判断发展或维持。"
+    },
+    {
+      "id": "landing_control",
+      "name": "落地控制能力",
+      "domains": [
+        "B",
+        "C",
+        "D"
+      ],
+      "family_ids": [
+        "b_833a82bf97",
+        "b_8ac1fa5102",
+        "c_124a14e917",
+        "c_227d6d0bbe",
+        "c_4209bbc5d6",
+        "c_629d9983b0",
+        "c_8ee5cd8dcb",
+        "c_d16ce38e33",
+        "d_ba95c198d8"
+      ],
+      "operational_assets": [
+        "alternate_leg_forward_bound",
+        "assisted_nordic",
+        "box_jump_stick",
+        "continuous_diagonal_bound",
+        "continuous_hurdle_jump",
+        "continuous_single_leg_hop",
+        "continuous_single_leg_lateral_hop",
+        "deceleration_run_stick",
+        "depth_jump",
+        "diagonal_bound_bounce",
+        "diagonal_bound_stick",
+        "drop_landing_stick",
+        "forward_lunge",
+        "hurdle_jump_bounce",
+        "hurdle_jump_stick",
+        "lateral_bound_stick",
+        "line_single_leg_hop_stick",
+        "planned_45_cut",
+        "reactive_two_choice_cut",
+        "short_lateral_bound_stick",
+        "shuffle_stick",
+        "single_leg_box_hop_stick",
+        "single_leg_hurdle_hop_bounce",
+        "single_leg_hurdle_hop_stick",
+        "single_leg_lateral_box_hop_stick",
+        "single_leg_lateral_hurdle_hop_bounce",
+        "single_leg_lateral_hurdle_hop_stick",
+        "single_leg_lateral_line_hop_stick",
+        "snap_down_stick",
+        "standing_broad_jump_stick"
+      ],
+      "catalog_only": [],
+      "support_scope": [
+        {
+          "asset_id": "deceleration_run_stick",
+          "scope": {
+            "capability_id": "landing_control",
+            "scope": "吸收前向动量并停稳",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "shuffle_stick",
+          "scope": {
+            "capability_id": "landing_control",
+            "scope": "侧向推进与制动",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "planned_45_cut",
+          "scope": {
+            "capability_id": "landing_control",
+            "scope": "预设方向下的减速与再次加速",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "reactive_two_choice_cut",
+          "scope": {
+            "capability_id": "landing_control",
+            "scope": "外部提示下的感知决策与转向",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "snap_down_stick",
+          "scope": {
+            "capability_id": "landing_control",
+            "scope": "下沉时的下肢减速与稳定姿势控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "box_jump_stick",
+          "scope": {
+            "capability_id": "landing_control",
+            "scope": "双腿起跳与稳定落地",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "hurdle_jump_stick",
+          "scope": {
+            "capability_id": "landing_control",
+            "scope": "双腿跳跃与较大回落负担",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "hurdle_jump_bounce",
+          "scope": {
+            "capability_id": "landing_control",
+            "scope": "双腿离心到向心的过渡",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "continuous_hurdle_jump",
+          "scope": {
+            "capability_id": "landing_control",
+            "scope": "双腿快速弹性反应",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "line_single_leg_hop_stick",
+          "scope": {
+            "capability_id": "landing_control",
+            "scope": "同侧单腿起跳与落地控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_leg_box_hop_stick",
+          "scope": {
+            "capability_id": "landing_control",
+            "scope": "同侧单腿推进与稳定落地",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_leg_hurdle_hop_stick",
+          "scope": {
+            "capability_id": "landing_control",
+            "scope": "同侧单腿跳跃与回落吸收",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "continuous_single_leg_hop",
+          "scope": {
+            "capability_id": "landing_control",
+            "scope": "单腿连续弹性反应",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "lateral_bound_stick",
+          "scope": {
+            "capability_id": "landing_control",
+            "scope": "换腿侧向推进与单腿落地",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "short_lateral_bound_stick",
+          "scope": {
+            "capability_id": "landing_control",
+            "scope": "换腿侧向推进与单腿落地",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "diagonal_bound_stick",
+          "scope": {
+            "capability_id": "landing_control",
+            "scope": "换腿斜向推进与单腿落地",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "continuous_diagonal_bound",
+          "scope": {
+            "capability_id": "landing_control",
+            "scope": "换腿斜向弹性反应",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_leg_lateral_line_hop_stick",
+          "scope": {
+            "capability_id": "landing_control",
+            "scope": "同脚侧向与内侧落地控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "continuous_single_leg_lateral_hop",
+          "scope": {
+            "capability_id": "landing_control",
+            "scope": "同脚额状面弹性反应",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_leg_lateral_box_hop_stick",
+          "scope": {
+            "capability_id": "landing_control",
+            "scope": "同脚侧向与内侧落地控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_leg_lateral_hurdle_hop_stick",
+          "scope": {
+            "capability_id": "landing_control",
+            "scope": "同脚侧向与内侧落地控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "standing_broad_jump_stick",
+          "scope": {
+            "capability_id": "landing_control",
+            "scope": "双脚水平推进与稳定落地",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_leg_hurdle_hop_bounce",
+          "scope": {
+            "capability_id": "landing_control",
+            "scope": "同脚前向跳落地后，由一次小弹跳引入弹性过渡",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_leg_lateral_hurdle_hop_bounce",
+          "scope": {
+            "capability_id": "landing_control",
+            "scope": "同脚内侧与外侧跳落地后的弹性过渡",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "diagonal_bound_bounce",
+          "scope": {
+            "capability_id": "landing_control",
+            "scope": "45度换脚跨跳后的单脚弹性过渡",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "alternate_leg_forward_bound",
+          "scope": {
+            "capability_id": "landing_control",
+            "scope": "单脚交替支撑下的纯前向水平推进与连续弹性输出",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "drop_landing_stick",
+          "scope": {
+            "capability_id": "landing_control",
+            "scope": "承受外部落差造成的双脚落地负荷并吸收停稳",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "depth_jump",
+          "scope": {
+            "capability_id": "landing_control",
+            "scope": "外部下落负荷后的快速双脚垂直反跳",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "forward_lunge",
+          "scope": {
+            "capability_id": "landing_control",
+            "scope": "单侧腿力与前向迈步接收回推",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "assisted_nordic",
+          "scope": {
+            "capability_id": "landing_control",
+            "scope": "在跪姿固定小腿时，以膝伸展过程承受腘绳肌离心负荷。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        }
+      ],
+      "limits": "此为检索索引；本课目标、剂量、熟悉度和恢复成立后才能判断发展或维持。"
+    },
+    {
+      "id": "fundamental_movement",
+      "name": "基础运动能力",
+      "domains": [
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "family_ids": [
+        "c_124a14e917",
+        "c_227d6d0bbe",
+        "c_30c0dbb053",
+        "c_4209bbc5d6",
+        "c_52e4afa8be",
+        "c_629d9983b0",
+        "c_d16ce38e33",
+        "d_66dce2df18",
+        "d_7af768ecf4",
+        "e_85b44a7dcc",
+        "e_9265dd449f",
+        "e_97a7e0929f",
+        "e_b5ee2649cb",
+        "e_d2fd584351",
+        "e_d94c16b4da",
+        "e_dee736693c",
+        "f_1c2d38bbbb",
+        "f_53900c7e70",
+        "f_8662630a2a",
+        "f_b3351fee2f",
+        "f_breaststroke_technique",
+        "f_cddb554e9f"
+      ],
+      "operational_assets": [
+        "aerobic_run_intervals",
+        "alternate_leg_forward_bound",
+        "backward_run",
+        "box_jump_stick",
+        "carioca",
+        "continuous_diagonal_bound",
+        "continuous_hurdle_jump",
+        "continuous_single_leg_hop",
+        "continuous_single_leg_lateral_hop",
+        "depth_jump",
+        "diagonal_bound_bounce",
+        "diagonal_bound_stick",
+        "drop_landing_stick",
+        "easy_run",
+        "freestyle_aerobic_repeats",
+        "freestyle_continuous",
+        "freestyle_fast_25",
+        "freestyle_fingertip_drag",
+        "freestyle_focus_swim",
+        "freestyle_front_scull",
+        "freestyle_long_repeats",
+        "freestyle_short_repeats",
+        "freestyle_strong_repeats",
+        "freestyle_touch_turn",
+        "high_knee_march",
+        "high_knee_run",
+        "hurdle_jump_bounce",
+        "hurdle_jump_stick",
+        "lateral_bound_stick",
+        "lateral_march",
+        "lateral_shuffle",
+        "lateral_skip",
+        "line_single_leg_hop_stick",
+        "linear_skip",
+        "long_easy_run",
+        "pogo",
+        "power_skip",
+        "progression_run",
+        "repetition_run",
+        "run_cooldown",
+        "run_walk",
+        "run_warmup",
+        "short_lateral_bound_stick",
+        "single_leg_box_hop_stick",
+        "single_leg_hurdle_hop_bounce",
+        "single_leg_hurdle_hop_stick",
+        "single_leg_lateral_box_hop_stick",
+        "single_leg_lateral_hurdle_hop_bounce",
+        "single_leg_lateral_hurdle_hop_stick",
+        "single_leg_lateral_line_hop_stick",
+        "standing_broad_jump_stick",
+        "straight_leg_walk",
+        "strides",
+        "swim_breaststroke_breathe_kick_slide",
+        "swim_breaststroke_controlled",
+        "swim_breaststroke_kick_deck",
+        "swim_breaststroke_kick_supine",
+        "swim_breaststroke_pull_standing",
+        "swim_breaststroke_two_kicks_one_pull",
+        "threshold_continuous",
+        "threshold_cruise_intervals",
+        "timed_fartlek",
+        "uphill_speed_repetitions"
+      ],
+      "catalog_only": [],
+      "support_scope": [
+        {
+          "asset_id": "high_knee_march",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "行进节律与支撑下的髋屈控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "linear_skip",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "直线节律与轻跳支撑",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "high_knee_run",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "跑步节律与快速交替支撑",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "straight_leg_walk",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "后链动态范围与支撑节律",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "lateral_march",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "侧向推进与交替支撑节律",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "lateral_skip",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "侧向推地与跳步节律",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "lateral_shuffle",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "侧向推进与制动准备",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "carioca",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "侧向行进与髋转向协调",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "backward_run",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "向后移动时的跑步节律与交替支撑控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "box_jump_stick",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "双腿起跳与稳定落地",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "hurdle_jump_stick",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "双腿跳跃与较大回落负担",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "hurdle_jump_bounce",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "双腿离心到向心的过渡",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "continuous_hurdle_jump",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "双腿快速弹性反应",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "line_single_leg_hop_stick",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "同侧单腿起跳与落地控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_leg_box_hop_stick",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "同侧单腿推进与稳定落地",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_leg_hurdle_hop_stick",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "同侧单腿跳跃与回落吸收",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "continuous_single_leg_hop",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "单腿连续弹性反应",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "lateral_bound_stick",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "换腿侧向推进与单腿落地",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "short_lateral_bound_stick",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "换腿侧向推进与单腿落地",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "diagonal_bound_stick",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "换腿斜向推进与单腿落地",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "continuous_diagonal_bound",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "换腿斜向弹性反应",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_leg_lateral_line_hop_stick",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "同脚侧向与内侧落地控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "continuous_single_leg_lateral_hop",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "同脚额状面弹性反应",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_leg_lateral_box_hop_stick",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "同脚侧向与内侧落地控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_leg_lateral_hurdle_hop_stick",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "同脚侧向与内侧落地控制",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "standing_broad_jump_stick",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "双脚水平推进与稳定落地",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "pogo",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "踝主导连续弹性反应与短触地",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_leg_hurdle_hop_bounce",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "同脚前向跳落地后，由一次小弹跳引入弹性过渡",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "single_leg_lateral_hurdle_hop_bounce",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "同脚内侧与外侧跳落地后的弹性过渡",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "diagonal_bound_bounce",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "45度换脚跨跳后的单脚弹性过渡",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "power_skip",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "step-hop节律下的主动髋伸展、单腿向上和向前爆发",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "alternate_leg_forward_bound",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "单脚交替支撑下的纯前向水平推进与连续弹性输出",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "drop_landing_stick",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "承受外部落差造成的双脚落地负荷并吸收停稳",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "depth_jump",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "外部下落负荷后的快速双脚垂直反跳",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "run_walk",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "以轻松跑强度累积专项跑动，用步行分隔工作段。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "easy_run",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "发展与维持跑步专项持续能力及重复接触耐受。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "long_easy_run",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "延长轻松强度下的单课持续跑，发展较长跑动的专项耐力。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "threshold_cruise_intervals",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "用短恢复分隔T阈强度跑段，累积舒适但吃力的持续跑工作。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "threshold_continuous",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "在T阈强度下连续完成稳定跑段，发展较长时间维持舒适吃力节奏的能力。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "aerobic_run_intervals",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "用比T更强的可重复跑段和主动恢复，发展有氧功率。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "strides",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "以短、流畅、非全力快速接触练习跑姿与较快节奏。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "repetition_run",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "在充分恢复后反复完成较快跑段，发展速度与跑动经济性。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "run_warmup",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "用实际走跑与熟悉动作逐步进入本课工作。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "run_cooldown",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "在实际走跑中降低努力并结束本课。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "timed_fartlek",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "以不同长度的吃力工作段和轻松跑交替，累积I目的有氧工作。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "uphill_speed_repetitions",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "在熟悉缓坡上反复完成短、较快、流畅跑段，发展推蹬与跑动经济性。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "progression_run",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "在不中断的跑段中逐步提高努力，并受控进入短T段。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "freestyle_focus_swim",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "在本人已会的整泳中巩固一个具体技术要点。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "freestyle_short_repeats",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "在较短组距与明确壁边休息中累积自由泳工作。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "freestyle_aerobic_repeats",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "以相对较长组距和短恢复积累水中持续有氧工作。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "freestyle_long_repeats",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "延长一次持续水中工作，并减少相同总量下的休息频次。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "freestyle_continuous",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "在不依赖壁边组间恢复的条件下维持整泳。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "freestyle_strong_repeats",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "用确定组距与恢复保持较强水中输出。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "freestyle_fast_25",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "在充分恢复下重复较快整泳，发展短距离速度质量。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "freestyle_fingertip_drag",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "通过轻触水面的指尖反馈巩固移臂路径。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "freestyle_front_scull",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "在前位小幅划水中感受手掌与前臂水压，再接整泳。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        },
+        {
+          "asset_id": "freestyle_touch_turn",
+          "scope": {
+            "capability_id": "fundamental_movement",
+            "scope": "在已会扶壁转向与轻蹬出壁后接回整泳。",
+            "condition": "本课实际剂量、质量与阶段目标支持时才能计发展或维持；索引关联本身不是已发展证明。"
+          }
+        }
+      ],
+      "limits": "此为检索索引；本课目标、剂量、熟悉度和恢复成立后才能判断发展或维持。"
+    }
+  ],
+  "remaining_limits": [
+    "sprint_30m是静止加速任务，不自动证明最大速度得到发展。",
+    "划船机力量标签只支持反复传力和局部耐力，不替代较重力量工作组。",
+    "非备赛训练不主动安排测试课、测试周或由未知未来比赛成绩倒推配速。",
+    "没有独立掌握的举重接收、泳姿与高速任务不由家族名推定已经会做。"
+  ]
+}

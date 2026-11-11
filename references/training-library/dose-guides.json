@@ -1,0 +1,1076 @@
+{
+  "scope": "已掌握所选动作或项目的健康成人综合训练；临床处方、伤后许可和比赛峰值不属于这些默认处方的用途",
+  "selection_policy": {
+    "responsibility": "Skill结合目标优先级、当前可重复能力、已有负荷与可用时间选择本次唯一建议；不把处方范围或选择责任交给用户",
+    "order": [
+      "近期已确认且适合阶段目标的剂量优先，保留其有依据的强度与恢复",
+      "没有适用既有剂量时选择一个满足条件的明确起始处方，不只输出范围",
+      "需专门技术前置的动作不熟悉就换已掌握同目的资产；无需技术前置的低技术基础准备可在器材可用、无已知相关限制时明确假设正常完成并保留unknown；有限依据用于透明保守草案，不伪造掌握或测试结果",
+      "同周主要发展任务优先获得刺激；维持任务减少总量但保留熟悉的相对强度"
+    ],
+    "default_execution": "默认按计划正常完成，预先写好下次及周间递进；无需逐次日志或测试许可才进阶。有实际异常反馈时纠偏，不补造成功记录",
+    "interpretation": "这是本体系的具体默认设计选择，不宣称任何组次是所有人的唯一最优剂量；条件变化时由Skill改为另一套确定处方",
+    "time_accounting": "计划项注明完整组含所有侧的工作时间估算。等组组合按行序循环，不等组给module.set_sequence逐组顺序，按每项实际再次开始的时间核算恢复。穿插工作与同一恢复窗口不重复相加",
+    "complete_session": "明确滚压部位、伸展、纠正或活动度、激活、动态准备与移动任务，再安排速度跳跃药球、力量房爆发与核心、力量组合及能量代谢决定。主练剂量不是整堂课程；完整准备和实际恢复不能为分钟标签省略",
+    "aerobic_accounting": "分别核对跑净量、泳距离与净游分钟、达到计划强度的有氧当量、完整课时。课后体能与独立跑泳共同计负荷，不重复叠加；普通力量和低强准备不自动计有氧。数据通过不证明刺激或恢复合理",
+    "authority": "本文件定义可复用剂量策略，课程文件定义任务槽位，执行计划保存本次唯一实际处方；周与阶段从单次汇总。候选资产的起始示例不覆盖本人合适既有量。更新策略后同步引用示例，不以文案相似代替剂量一致性。",
+    "asset_binding": "任务家族和强度用途先匹配已注册具体资产，采用其定义、器材、池长和熟悉条件。处方参数可以按本策略调整，任务改变须另选对应ID；未定义ID不得进入执行版，不用耐力资产冒充速度。"
+  },
+  "strength": {
+    "general_development": {
+      "use_when": "动作熟悉且有稳定训练经历，本阶段以综合力量提高为主",
+      "default": {
+        "sets": 3,
+        "reps": 8,
+        "target_rpe": 7,
+        "rest_seconds": 150
+      },
+      "frequency": "主要肌群通过整周课表获得针对性接触；采用日波动时选一个或两个稳定主力每周重复两次，按daily_undulating_development安排不同负荷任务，其他模式可分日分配，不要求所有动作重复",
+      "planned_progression": [
+        {
+          "week": 1,
+          "sets": 3,
+          "reps": 8,
+          "target_rpe": 7
+        },
+        {
+          "week": 2,
+          "sets": 3,
+          "reps": 9,
+          "target_rpe": 7
+        },
+        {
+          "week": 3,
+          "sets": 3,
+          "reps": 10,
+          "target_rpe": 7
+        },
+        {
+          "week": 4,
+          "sets": 3,
+          "reps": 8,
+          "target_rpe": 7,
+          "load_action": "采用器材最小可用加重步进，首次工作组按目标RPE微调"
+        }
+      ],
+      "branch": "上述是某一类课的周间步进，不代表每次训练都升一级或已完成日波动。锚点采用daily_undulating_development；近期仅稳定完成两组时用low_exposure_start；已有更高合适剂量沿本人起点"
+    },
+    "daily_undulating_development": {
+      "use_when": "相同主力动作已熟悉，近期稳定三组且能承接较重刺激，本阶段要提高该动作的容量与负重表现",
+      "anchor": "选择一个或两个明确动作或可比任务，保持器材、单/双侧及主要姿势；可选相同分腿蹲和相同哑铃卧推，两课均重复这些锚点。其他模式分日覆盖，不把换动作或换课名算成同动作日波动",
+      "declaration": "design_context.strength_waves写unit_id、first_week、last_week、rationale；相应实际工作项标wave_role=capacity/heavy，准备组不标。每周在不同日期给同一锚点两类工作，字段核对不等于证明真实加重或负荷合理",
+      "capacity_session": {
+        "sets": 3,
+        "reps": 8,
+        "target_rpe": 7,
+        "rest_seconds": 150,
+        "load_selection": "相同质量下完成8次后约还能做3次，即余3次；按此选择负重"
+      },
+      "heavier_session": {
+        "sets": 3,
+        "reps": 5,
+        "target_rpe": 8,
+        "rest_seconds": 180,
+        "load_selection": "相同主力完成5次后约还能做2次，即余2次；选匹配低次数任务的较重负重，不沿用容量课重量随便少做几次"
+      },
+      "planned_progression": [
+        {
+          "week": 1,
+          "capacity": "3×8、余3次/RPE7",
+          "heavier": "3×5、余2次/RPE8",
+          "change": "建立两种负荷任务"
+        },
+        {
+          "week": 2,
+          "capacity": "3×9、余3次/RPE7",
+          "heavier": "3×5、余2次/RPE8",
+          "change": "容量课每组加1次，较重课保留"
+        },
+        {
+          "week": 3,
+          "capacity": "3×9、余3次/RPE7",
+          "heavier": "3×6、余2次/RPE8",
+          "change": "较重课每组加1次，容量课保留"
+        },
+        {
+          "week": 4,
+          "capacity": "3×8、余3次/RPE7",
+          "heavier": "3×5、余2次/RPE8",
+          "change": "分别尝试最小合适加重步进回到原次数，按目标努力微调；不是自动降载"
+        }
+      ],
+      "progression_rule": "这是指定起点的四周设计，正常完成沿预设继续。后续阶段同样列两类课和周间台阶；主力台阶与跑泳递进协调，不要求日志或测1RM。器材步进过大时Skill预先改成明确加次数方案，不逼超过目标努力",
+      "limit": "容量/较重描述受保护的主力刺激，不要求全课同时高低变化；日波动是相邻课变化，周间进阶是同一类课跨周变化。这一设计不宣称所有人或混合训练的唯一最优"
+    },
+    "low_exposure_start": {
+      "use_when": "动作已掌握，近期组量低或中断后当前能力只支持低组量；不将此处方作为长期最大力量发展剂量",
+      "default": {
+        "sets": 2,
+        "reps": 8,
+        "target_rpe": 6,
+        "rest_seconds": 120
+      },
+      "planned_progression": [
+        {
+          "sets": 2,
+          "reps": 8,
+          "target_rpe": 6,
+          "week": 1
+        },
+        {
+          "sets": 3,
+          "reps": 8,
+          "target_rpe": 6,
+          "week": 2
+        },
+        {
+          "sets": 3,
+          "reps": 9,
+          "target_rpe": 7,
+          "week": 3
+        },
+        {
+          "sets": 3,
+          "reps": 10,
+          "target_rpe": 7,
+          "week": 4
+        }
+      ],
+      "branch": "起点充分时直接使用general_development，不为形式先安排低刺激阶段",
+      "progression_period": "四周示例；同周同模式不把每次接触都当一次新台阶",
+      "planned_progression_note": "先增加可重复组量，再按后两周目标RPE7选择合适负重；不要求同一重量或机械逐周提高努力"
+    },
+    "heavy_strength_development": {
+      "use_when": "目标为较重负荷表现提高，动作及较重工作组已熟悉，近期可重复表现支持",
+      "default": {
+        "sets": 3,
+        "reps": 5,
+        "target_rpe": 8,
+        "rest_seconds": 180
+      },
+      "frequency": "稳定主力可每周两次接触，另一课采用明确容量处方承接；不要求两次全做较重工作",
+      "planned_progression": "采用日波动时按daily_undulating_development的较重课周间台阶。独立较重课可3×5→3×6→3×6→最小合适加重后3×5，目标RPE8保持；首次工作组超过目标则回调，不机械每次都加重",
+      "branch": "先保证技术和组间恢复；恢复不足时明确改休240秒。无较重负荷依据时用general_development，不反推1RM",
+      "upper_body_branch": {
+        "use_when": "已熟悉卧推或引体等上肢较重工作组，阶段需要低次数力量强化",
+        "default": {
+          "sets": 3,
+          "reps": 3,
+          "target_rpe": 8,
+          "rest_seconds": 180
+        },
+        "selection": "该分支由Skill依据本人较重负荷能力确定；非所有上肢动作一律3次，局部补足仍按local_support"
+      }
+    },
+    "hypertrophy_priority": {
+      "use_when": "用户明确将肌肉增长列为重点，有稳定力量训练且恢复、时间允许增加局部周量",
+      "default": {
+        "sets": 3,
+        "reps": 8,
+        "target_rpe": 8,
+        "rest_seconds": 120
+      },
+      "planned_progression": "3×8→3×9→3×10→最小可用加重后3×8，目标RPE8保持",
+      "weekly_volume_decision": "先汇总相关肌群现有有效工作组；起点充分且以肌肥大为重点时可将每周10个相关有效组作为明确初始周量目标，再按参与程度和混合训练成本调整；不将每个复合动作对所有肌群都算完整有效组",
+      "branch": "恢复或时间只能支持更低周量时明确较低周量及取舍，不将10组当硬门槛。一般综合能力目标使用general_development"
+    },
+    "local_support": {
+      "use_when": "主要动作外有明确局部能力或模式缺口，且时间与恢复允许",
+      "default": {
+        "sets": 2,
+        "reps": 10,
+        "target_rpe": 7,
+        "rest_seconds": 90
+      },
+      "planned_progression": "2×10→2×11→2×12→最小可用加重后2×10，目标RPE7保持",
+      "branch": "等长、负重走和距离动作按自身形式给时长或距离，不直接套10次"
+    },
+    "maintenance": {
+      "use_when": "本阶段主要发展其他能力，已有力量以维持为目标",
+      "default": {
+        "sets": 2,
+        "reps": 5,
+        "target_rpe": 8,
+        "rest_seconds": 180,
+        "weekly_exposures": 1
+      },
+      "branch": "默认限近期熟悉约5次、RPE8工作组。若本人原本稳定6次、RPE7，则明确2×6、RPE7；保留原相对强度，不能突然改成不熟悉高强度。年龄较高、已有维持困难或明确需求需更高接触量时给每周两次、每次2组熟悉剂量",
+      "planned_progression": "通常保持组量；正常执行中随能力变化微调负重维持目标RPE，不强迫每周增加组量",
+      "limit": "每周一次仅为满足条件时的明确起始选择，不保证所有训练水平无限期维持"
+    },
+    "rpe_correction": "熟悉力量默认剩余次数标尺：RIR3/余3次对应RPE7，RIR2/余2次对应RPE8；用户已有其他熟悉标尺须注明，不能混用。RPE是工作组努力程度，不等于固定%1RM、整课难度或疼痛。规定次数后实际明显高于目标则先减负重，仍无法完成才减次或组；明显低于目标且控制稳定则最小合适加重。未知公斤数不伪造，不要求测1RM或交日志"
+  },
+  "power": {
+    "quality_output": {
+      "use_when": "离散重置的单次力量房爆发已熟悉、近期能承接9次高质量输出，且低疲劳条件支持主要刺激；不作为所有跳跃、药球或连续挥摆的统一处方",
+      "default": {
+        "sets": 3,
+        "reps": 3,
+        "rest_seconds": 180,
+        "intensity": "快速明确的输出意图，保持每次质量，不追求疲劳RPE或力竭"
+      },
+      "planned_progression": "非重点爆发可四周保持3×3与高质量输出；若爆发是本阶段重点且已有该承载，可明确3×3→3×4→3×4→3×3并尝试最小合适负重变化。主力或跑泳上台阶时本项保留，不机械每周同时增量",
+      "branch": "加重明显拖慢或破坏输出则回调。连续壶铃摆动、胸前药球、旋转药球和低幅连续弹跳用各自任务处方，不共用3次含义"
+    },
+    "continuous_swing": {
+      "unit_id": "kb_swing",
+      "use_when": "双手壶铃连续挥摆已掌握，近期能保持10次快速髋伸的质量；作为连续爆发接触而非最大重量或疲劳体能",
+      "default": {
+        "sets": 3,
+        "reps": 10,
+        "rest_seconds": 120,
+        "intensity": "每次髋伸快速、回摆可控；球重允许整组输出保持，不追力竭或用喘气证明强度"
+      },
+      "planned_progression": "非重点四周保持3×10。若为重点且正常重复该量，可第4周尝试一个最小合适负重步进，组次和质量要求保持；实际输出下降回调，不同时加次数和负重",
+      "branch": "近期只熟悉较短挥摆组时沿本人完整剂量；不因本分支10次固定加量，也不拿短3次挥摆等同于所有连续爆发任务"
+    },
+    "chest_throw": {
+      "unit_id": "medball_throw",
+      "use_when": "站姿胸前推掷已掌握、投区获准，完整功能课另含跳跃和力量房爆发，本阶段需要10次低量重置投掷且近期可承接",
+      "default": {
+        "sets": 2,
+        "reps": 5,
+        "rest_seconds": 60,
+        "intensity": "球重允许快速释放，每次取球与重置，不强制接回或追疲劳"
+      },
+      "planned_progression": "非重点四周保持2×5。若投掷为重点、近期已能承接15次重置投掷且恢复允许，Skill明确选发展分支3×5→3×6→3×6→3×5，并只改变一个最小合适负重或任务，不与主力及跑泳同步增量",
+      "time_accounting": "取球、步行与重置均计入执行时间；墙面、球型或场地不适合接回时不能安排反弹接球",
+      "branch": "发展分支起始3×5、实际恢复60秒；已有更高稳定投掷量且为重点者按本人起点设计。近期只支持更小量时给另一套确定剂量，不把10或15次当通用安全阈值"
+    },
+    "landing_control": {
+      "use_when": "低高度落地已掌握，目的主要为控制而非最大输出",
+      "default": {
+        "sets": 2,
+        "reps": 3,
+        "rest_seconds": 60,
+        "intensity": "每次重置，保持稳定可控的落地"
+      },
+      "planned_progression": "2×3→2×4→3×3→3×3并只改变一个已允许的姿势或方向要求，不按周数加高度",
+      "branch": "接触量按本人近期耐受及本周其他冲击确定；依据有限时先用本人已有低量暴露，没有通用安全接触阈值"
+    },
+    "stop_condition": "无法保持输出、落地或接杠质量时结束该组；恢复后仍不满足要求则结束单元，不用额外次数补质量",
+    "low_amplitude_reactive": {
+      "unit_id": "reactive_low_hops",
+      "use_when": "已会低幅连续双脚反弹且近期有低量跑跳耐受，本阶段需要弹性接触，首次额外反应量需控制",
+      "default": {
+        "sets": 3,
+        "reps": 5,
+        "contacts_per_rep": 1,
+        "per_side": false,
+        "rest_seconds": 90,
+        "intensity": "低幅、短接触、节奏与落地可重复，非最大高度或疲劳跳"
+      },
+      "planned_progression": "第1周3×5（15事件），第2周4×5（20事件），第3及4周保持4×5；正常完成依预设继续，不同周量起点沿用本人合适量。已有更高稳定任务量者不机械退回15事件",
+      "branch": "只有停稳跳熟悉者用landing或low_jump，不教连续反弹；若同周跑跳工作显著增加先保持本单元，避免同时升幅度、方向和接触量",
+      "limit": "一次双脚同时落地计一个事件，包含最后一跳；默认不是通用安全阈值或所有人唯一最优量"
+    },
+    "rotational_throw": {
+      "unit_id": "rotational_medball_throw",
+      "use_when": "站姿侧向旋转投掷已会，目标为旋转爆发传力且器材与投区允许",
+      "default": {
+        "sets": 3,
+        "reps": 3,
+        "per_side": true,
+        "rest_seconds": 180,
+        "intensity": "球重允许快速而可控释放；每次重置，不追疲劳RPE"
+      },
+      "planned_progression": "非重点四周保持3×3/侧；明确发展旋转爆发且起点支持时可3×3/侧→3×4/侧→3×4/侧→3×3/侧并尝试一个最小合适负重变化。目标质量保持，不同时增加方向复杂度、组量与跑泳负荷",
+      "time_accounting": "完整一组包含两侧工作与必要侧间重置；每组后的180秒恢复另列，不重复计同一窗口",
+      "branch": "肩髋耐受或输出不支持时使用本人已会低成本爆发工具；抗旋转保持不是旋转投掷等价剂量"
+    }
+  },
+  "run": {
+    "intensity_system": "没有可靠当前配速时，轻松段以可连贯说话、呼吸可控为锚点；较强段以可重复、非全力的努力为锚点。不伪称测得个人乳酸阈值、心率分区或最大摄氧量配速",
+    "easy_development": {
+      "use_when": "近期跑步暴露稳定，本阶段需增加轻松耐力",
+      "initial_selection": "第一周保留近期稳定周频率与熟悉单次时长，分配确定日期时长。若自述近期每周两次且每次轻松20分钟，首周明确20＋20分钟，不凭目标成绩加长",
+      "default_for_20_min_twice": [
+        {
+          "week": 1,
+          "session_minutes": [
+            20,
+            20
+          ]
+        },
+        {
+          "week": 2,
+          "session_minutes": [
+            20,
+            23
+          ]
+        },
+        {
+          "week": 3,
+          "session_minutes": [
+            22,
+            23
+          ]
+        },
+        {
+          "week": 4,
+          "session_minutes": [
+            23,
+            25
+          ]
+        }
+      ],
+      "individual_scaling": "20分钟每周两次的特定起点采用上面的四周波形，将总量40→43→45→48分钟分散到两课。其他起点首周用本人稳定量；默认每次只给一堂轻松课加时：不足20分钟加1分钟，20至40分钟加2分钟，超过40分钟加3分钟；这是另一不同起点的排课规则，不是伤病阈值。已确认目标和较高量可另给唯一递进，不在同周同时新增频率和较强总量",
+      "branch": "稳定周量较高且目标需更明显发展时由Skill另定明确递进；无稳定连续跑能力则沿用本人已熟悉跑走比例，不为20分钟模板硬撑"
+    },
+    "controlled_hard_intervals": {
+      "unit_id": "controlled_hard_run",
+      "use_when": "轻松暴露稳定且近期已有较强跑，当前能重复完成约8分钟较强工作量，本阶段需要此刺激",
+      "default": {
+        "repeats": 4,
+        "work_minutes": 2,
+        "work_target_rpe": 7,
+        "recovery_minutes": 2,
+        "recovery_mode": "轻松慢跑或走，计划明确一种",
+        "weekly_exposures": 1
+      },
+      "planned_progression": [
+        {
+          "exposure": 1,
+          "repeats": 4,
+          "work_minutes": 2,
+          "recovery_minutes": 2
+        },
+        {
+          "exposure": 2,
+          "repeats": 5,
+          "work_minutes": 2,
+          "recovery_minutes": 2
+        },
+        {
+          "exposure": 3,
+          "repeats": 6,
+          "work_minutes": 2,
+          "recovery_minutes": 2
+        },
+        {
+          "exposure": 4,
+          "repeats": 6,
+          "work_minutes": 2,
+          "recovery_minutes": 2
+        }
+      ],
+      "branch": "较强能力未知或近期无该暴露时先按easy_development建设；若阶段需要引入，由Skill另定更小明确起始工作量。已熟悉更长巡航段者可沿用本人较强课，不强制改2分钟间歇",
+      "stop_condition": "输出或动作控制明显无法重复时结束工作段；延长一次恢复仍达不到要求则结束主训练，不将后组变全力冲刺"
+    },
+    "strides": {
+      "use_when": "短加速已熟悉且跑步耐受稳定，用于实际跑速与协调接触",
+      "default": {
+        "repeats": 4,
+        "work_seconds": 15,
+        "recovery_seconds": 75,
+        "intensity": "流畅加速到熟悉快速跑，保持放松与控制，非疲劳冲刺"
+      },
+      "planned_progression": "4×15秒→5×15秒→6×15秒→6×15秒，恢复75秒保持；恢复不足则明确延长，不提高疲劳",
+      "limit": "短加速接触不是完整最大速度发展课；速度为主要目标时另定距离、强度依据及充分恢复"
+    },
+    "maintenance": "保留本人熟悉且有关维持目标的强度刺激，减少部分轻松时长或频率；不能删掉全部较强课仍宣称专项耐力完全维持。Skill从已有周量与当前重点选定具体课表，不用固定维持百分比"
+  },
+  "swim": {
+    "selection": "只用已能独立完成的泳姿与练习；Skill依据近期单次总量、熟悉组距和连续能力选择唯一主训练组，池长、组距及单位一致",
+    "supplement_50m": {
+      "use_when": "25米或50米池，泳姿已掌握，近期可轻松重复50米且主训练至少300米；游泳作为补充",
+      "default": {
+        "repeats": 6,
+        "distance_meters": 50,
+        "target_rpe": 4,
+        "rest_seconds": 30,
+        "rest_type": "每次到边后的纯休息"
+      },
+      "planned_progression": [
+        {
+          "exposure": 1,
+          "repeats": 6,
+          "distance_meters": 50,
+          "rest_seconds": 30
+        },
+        {
+          "exposure": 2,
+          "repeats": 7,
+          "distance_meters": 50,
+          "rest_seconds": 30
+        },
+        {
+          "exposure": 3,
+          "repeats": 8,
+          "distance_meters": 50,
+          "rest_seconds": 30
+        },
+        {
+          "exposure": 4,
+          "repeats": 8,
+          "distance_meters": 50,
+          "rest_seconds": 30
+        }
+      ],
+      "branch": "只熟悉25米重复且在25米池则明确8×25米、RPE4、到边休30秒，随后9×25→10×25→10×25。50米池不能写25米到边休息；使用本人熟悉50米剂量或改场地。已稳定更大主训练量则保留本人剂量，不退回300米模板"
+    },
+    "continuous_output_transition": {
+      "use_when": "已有400米主训练暴露且此前能轻松连续100米，目标为较长连续输出",
+      "default": {
+        "repeats": 4,
+        "distance_meters": 100,
+        "target_rpe": 4,
+        "rest_seconds": 30,
+        "rest_type": "每次到边后的纯休息"
+      },
+      "planned_progression": "原8×50改4×100，先保持总距离400米；下次仍4×100，再按阶段目的确定加一组或保持。不同时延长组距、加总距离和缩休息",
+      "branch": "只有50米连续能力时保留50米组距；泳姿、呼吸、肩部控制不足不按周数升100米"
+    },
+    "technique_unit": "25米池且练习已掌握时默认4×25米、RPE3、到边休20秒；50米池改本人熟悉50米练习组并给确定组数，不为凑技术段生成动作教学",
+    "time_and_distance": "上述主训练或技术组不含入水热身与放松。总距离逐组相加；时长用本人泳速或明确保守时间预算并含休息。无泳速依据不造固定出发间隔；纯休息仍明确，开始时间与可用窗口一致",
+    "correction": "熟悉泳姿、可持续呼吸或技术重点明显下降时先降低努力、延长一次休息；仍不能恢复则结束组或单元。游泳计肩部与全身成本，不自动等于水中康复",
+    "controlled_hard_intervals": {
+      "unit_id": "controlled_hard_swim",
+      "use_when": "已会所选泳姿，在25米或50米池近期能以可重复较强努力完成4×50米并恢复，本阶段需泳专项耐力；不是所有混合训练者默认加入",
+      "default": {
+        "repeats": 4,
+        "distance_meters": 50,
+        "target_rpe": 7,
+        "rest_seconds": 45,
+        "rest_type": "每次到边后的纯休息",
+        "weekly_exposures": 1
+      },
+      "planned_progression": [
+        {
+          "week": 1,
+          "repeats": 4,
+          "distance_meters": 50,
+          "target_rpe": 7,
+          "rest_seconds": 45
+        },
+        {
+          "week": 2,
+          "repeats": 5,
+          "distance_meters": 50,
+          "target_rpe": 7,
+          "rest_seconds": 45
+        },
+        {
+          "week": 3,
+          "repeats": 6,
+          "distance_meters": 50,
+          "target_rpe": 7,
+          "rest_seconds": 45
+        },
+        {
+          "week": 4,
+          "repeats": 6,
+          "distance_meters": 50,
+          "target_rpe": 7,
+          "rest_seconds": 45
+        }
+      ],
+      "branch": "缺少50米连续能力或近期较强暴露时先选适合本人轻松组，不以目标成绩推造较强能力；已有更大熟悉较强组者由Skill保留适当起点，不统一回退200米",
+      "time_accounting": "总距离200→250→300→300米，泳进时间按本人配速或明确保守预算估算；纯休息独立计算，不虚构出发间隔",
+      "limit": "可重复较强努力不等于测得阈值；组距与恢复仅是满足该起点时的具体设计选择"
+    }
+  },
+  "preparation": {
+    "foam_roll": "由Skill明确本次地面滚压区域和姿势。完整准备默认臀部与髋旋转肌、腘绳肌、小腿、肩后侧、内收肌、股四头肌各20秒/侧，上背30秒，再仰卧屈膝平稳呼吸3次；肌肉工作4.5分钟加呼吸和转换，共6分钟。无已知相关限制的低技术形式可按正常完成假设、mastery保留unknown；不用直接腰椎滚压、复杂高台加压或疼痛强度证明有效，不用笼统2分钟代替完整区域",
+    "static_stretch": "完整准备默认90/90髋内外旋、箱式或半跪髋屈肌、内收肌后坐、交替大步弓步开髋四项，各5次呼吸/侧；双侧共40次呼吸，按每次约9秒加转换预留7分钟，之后接续主动准备。低技术可按无已知限制的正常完成假设，部位、姿势和每侧呼吸写明；不默认负重、极限或治疗。明确需要紧凑局部调整时才另选四项各20秒/侧加转换共4分钟的分支，并说明取舍，不能称其为默认25分钟完整准备",
+    "mobility_expansion": "纠正或活动度、激活、动态准备与移动技能分别展开成具体形式和剂量。可控基础例：胸椎四点支撑旋转1×5/侧、肩胛墙滑1×8；低技术可按正常完成假设，复杂形式仍须已会。示例不是完整热身，不用这两项或主动作升重组替代全部准备；按功能课模板补足动态与移动任务并核算真实时间",
+    "template_integration": "完整准备默认25分钟：软组织与呼吸6、拉伸循环7、纠正与活动度3、激活3、原地和低速模式3、行进技能3；各层具体动作沿functional-session明确直线或侧向处方并核算全部侧、走回与转换。局部支持嵌入准备或明确三联，不固定另加名称模糊的承载模块。爆发与核心允许不等组，用set_sequence展开顺序并保留自身恢复。能量代谢写具体处方或由哪堂跑泳承接；完整力量日可预留90分钟，但实际按全课工作恢复和转换核算，不为保住总分钟删工作",
+    "sport_specific": "跑场与泳池做本次专项常规准备，具体动作、剂量与升温列于endurance-sessions；功能课完整准备不整体搬到跑泳场地。针对性额外支持仅有具体需求时按support-and-correction嵌入，周末放松不替代训练当日准备。"
+  },
+  "cycle_routes": {
+    "contract": "完整12周采用三个4周阶段，短请求只展开本次周期。先选一条匹配起点和目标的路径，再给全部实际周剂量；不要求每个项目同时上台阶，不安排测试课或测试前减量。正常完成照预设推进，新反馈修正例外。阶段是设计任务，不表示已测得适应。",
+    "stages": [
+      {
+        "first_week": 1,
+        "last_week": 4,
+        "task": "承接与发展",
+        "decision": "沿近期稳定量选择课程频次与课型；近期量低先建立可重复量，已有基础直接使用对应刺激。"
+      },
+      {
+        "first_week": 5,
+        "last_week": 8,
+        "task": "重点强化",
+        "decision": "明确改变负重任务、连续工作结构、关键频次或快速输出质量中的一种；非重点保持有效刺激。"
+      },
+      {
+        "first_week": 9,
+        "last_week": 12,
+        "task": "持续发展或整合",
+        "decision": "选择持续负重、快速输出重点或可重复输出分支；整合不是必须复杂化、力竭或赛前减量。"
+      }
+    ],
+    "strength_stable_three_set": {
+      "use_when": "主力动作已熟悉，近期稳定三组且可承接较重及较低次数任务；本周期发展综合负重能力，器材和恢复支持两个稳定锚点的相邻日任务。",
+      "anchor_policy": "保持每个锚点的具体任务与版本，容量和较重课在不同日期；其他动作按2/3/4日模板分配，不强迫全部动作DUP。",
+      "weeks": [
+        {
+          "week": 1,
+          "capacity": {
+            "sets": 3,
+            "reps": 8,
+            "target_rpe": 7,
+            "rest_seconds": 150
+          },
+          "heavy": {
+            "sets": 3,
+            "reps": 5,
+            "target_rpe": 8,
+            "rest_seconds": 180
+          }
+        },
+        {
+          "week": 2,
+          "capacity": {
+            "sets": 3,
+            "reps": 9,
+            "target_rpe": 7,
+            "rest_seconds": 150
+          },
+          "heavy": {
+            "sets": 3,
+            "reps": 5,
+            "target_rpe": 8,
+            "rest_seconds": 180
+          }
+        },
+        {
+          "week": 3,
+          "capacity": {
+            "sets": 3,
+            "reps": 9,
+            "target_rpe": 7,
+            "rest_seconds": 150
+          },
+          "heavy": {
+            "sets": 3,
+            "reps": 6,
+            "target_rpe": 8,
+            "rest_seconds": 180
+          }
+        },
+        {
+          "week": 4,
+          "capacity": {
+            "sets": 3,
+            "reps": 8,
+            "target_rpe": 7,
+            "rest_seconds": 150
+          },
+          "heavy": {
+            "sets": 3,
+            "reps": 5,
+            "target_rpe": 8,
+            "rest_seconds": 180
+          }
+        },
+        {
+          "week": 5,
+          "capacity": {
+            "sets": 3,
+            "reps": 6,
+            "target_rpe": 7,
+            "rest_seconds": 180
+          },
+          "heavy": {
+            "sets": 3,
+            "reps": 4,
+            "target_rpe": 8,
+            "rest_seconds": 180
+          }
+        },
+        {
+          "week": 6,
+          "capacity": {
+            "sets": 3,
+            "reps": 7,
+            "target_rpe": 7,
+            "rest_seconds": 180
+          },
+          "heavy": {
+            "sets": 3,
+            "reps": 4,
+            "target_rpe": 8,
+            "rest_seconds": 180
+          }
+        },
+        {
+          "week": 7,
+          "capacity": {
+            "sets": 3,
+            "reps": 7,
+            "target_rpe": 7,
+            "rest_seconds": 180
+          },
+          "heavy": {
+            "sets": 3,
+            "reps": 5,
+            "target_rpe": 8,
+            "rest_seconds": 180
+          }
+        },
+        {
+          "week": 8,
+          "capacity": {
+            "sets": 3,
+            "reps": 6,
+            "target_rpe": 7,
+            "rest_seconds": 180
+          },
+          "heavy": {
+            "sets": 3,
+            "reps": 4,
+            "target_rpe": 8,
+            "rest_seconds": 180
+          }
+        },
+        {
+          "week": 9,
+          "capacity": {
+            "sets": 3,
+            "reps": 8,
+            "target_rpe": 7,
+            "rest_seconds": 150
+          },
+          "heavy": {
+            "sets": 3,
+            "reps": 5,
+            "target_rpe": 8,
+            "rest_seconds": 180
+          }
+        },
+        {
+          "week": 10,
+          "capacity": {
+            "sets": 3,
+            "reps": 9,
+            "target_rpe": 7,
+            "rest_seconds": 150
+          },
+          "heavy": {
+            "sets": 3,
+            "reps": 5,
+            "target_rpe": 8,
+            "rest_seconds": 180
+          }
+        },
+        {
+          "week": 11,
+          "capacity": {
+            "sets": 3,
+            "reps": 9,
+            "target_rpe": 7,
+            "rest_seconds": 150
+          },
+          "heavy": {
+            "sets": 3,
+            "reps": 6,
+            "target_rpe": 8,
+            "rest_seconds": 180
+          }
+        },
+        {
+          "week": 12,
+          "capacity": {
+            "sets": 3,
+            "reps": 8,
+            "target_rpe": 7,
+            "rest_seconds": 150
+          },
+          "heavy": {
+            "sets": 3,
+            "reps": 5,
+            "target_rpe": 8,
+            "rest_seconds": 180
+          }
+        }
+      ],
+      "load_rule": "按本周规定次数和目标余次数选择匹配负重；回到较少次数时采用最小合适步进，不要求固定公斤数或同重量。第二阶段较低次数匹配较重负重；第三阶段回到较多次数重新匹配，不把增加重复数和外部重量同时设为硬要求。",
+      "branch": "较低次数不适合本阶段条件时，第二阶段保留第一阶段熟悉次数波形并按目标努力继续调重，由Skill在展开前明确选择；不保留两个备选给用户现场决定。",
+      "other_slots": "其他主要模式可保留general_development或本人合适量，辅助沿local_support；控制与快速任务按自身策略，不随锚点全部改低次数。"
+    },
+    "strength_low_exposure": {
+      "use_when": "动作已会但近期工作量较低，当前限制允许相应负重；不把经验年限当近期三组耐受。",
+      "stage_1": "采用strength.low_exposure_start的2×8→3×8→3×9→3×10，前两周RPE6、后两周RPE7；另按周分工给实际日波动，不为DUP强上未知较重任务。",
+      "stage_2": "从首阶段已预设建立的三组量承接。综合力量可3×8→3×9→3×9→3×8，RPE7、恢复150秒；需要且可承接较重刺激时明确另选3×5、RPE7、恢复180秒，不直接套稳定三组路径的4次任务。",
+      "stage_3": "综合路径继续相同次数波形并按目标努力匹配负重；当前重点轮换时选maintenance的熟悉强度剂量。新限制或完成困难只修正关联量，不因缺日志回到首周。"
+    },
+    "stage_3_power_priority": {
+      "use_when": "快速输出为末阶段重点，原力量与所选快速动作已熟悉，局部与全身恢复支持；不是所有综合训练者默认。",
+      "strength_preservation": {
+        "default": {
+          "sets": 2,
+          "reps": 5,
+          "target_rpe": 8,
+          "rest_seconds": 180
+        },
+        "frequency": "每个需维持的主任务至少保留本人适合的一次；确需两次或既有维持困难者按maintenance分支选定。",
+        "condition": "只限已熟悉约5次、RPE8工作；否则保留本人熟悉相对强度的明确剂量。"
+      },
+      "power_rule": "离散快速输出采用power.quality_output发展分支；连续挥摆采用power.continuous_swing，不把连续动作统一改3×3。场地同任务转入Lift后移出重复量，休息不压缩。"
+    },
+    "stage_3_repeat_output_priority": {
+      "use_when": "可重复力量输出是末阶段明确任务，熟悉对应动作且整周成本允许。",
+      "non_anchor_default": {
+        "sets": 2,
+        "reps": 15,
+        "target_rpe": 7,
+        "rest_seconds": 90
+      },
+      "progression": "四周2×15→2×16→2×16→2×15并匹配合适负重；相应主任务不同时追加工作组。",
+      "anchor_rule": "保留已选较重锚点的熟悉剂量与恢复，不能把所有主力改为疲劳循环；跑泳仍承担自身耐力任务。"
+    },
+    "endurance_continuation": [
+      "轻松建设之后，保持当前强度与适合的周量，可增加一种频次或重新分配最长课；不自动增加所有课分钟。",
+      "已有较强基础后，可保持较强总工作而延长熟悉单段；段长变化匹配恢复，不同时提速、增量和缩休。",
+      "速度任务保留质量与充分恢复；技术任务把一个熟悉关注点带到主组，不以增加陌生drill体现阶段。",
+      "先匹配session_routes具体分支，后续每4周仍写全部实际分钟、组距、重复数和恢复，不只写继续提高。"
+    ],
+    "next_cycle": "下一次请求从原末段适合的稳定量、仍有效的限制与本人当前条件承接；同重点可继续同锚点和课型，重点轮换则明确原能力维持剂量并重分配预算。无实际中断不自动重启低暴露首周，不强制测试或减量；一次执行计划仍不超过12周，也不伪造完成与适应记录。"
+  },
+  "control": {
+    "role": "用于穿插控制与负重移动槽位，不和准备中的低量控制自动互相抵消；同一实际工作只计一次。",
+    "dynamic_control": {
+      "use_when": "相应躯干控制动作熟悉且低量穿插不破坏主动作质量",
+      "default": {
+        "sets": 2,
+        "reps": 6,
+        "rest_seconds": 45
+      },
+      "side_rule": "单侧任务明确每侧，双侧任务不机械乘两侧。"
+    },
+    "isometric_control": {
+      "use_when": "相应熟悉等长控制作为本次穿插",
+      "default": {
+        "sets": 2,
+        "hold_seconds": 20,
+        "rest_seconds": 45
+      },
+      "side_rule": "根据资产明确单侧或双侧，不全部写每侧。"
+    },
+    "loaded_carry": {
+      "use_when": "熟悉所选负重走且场地及步态支持",
+      "default": {
+        "sets": 2,
+        "distance_meters": 20,
+        "rest_seconds": 60
+      },
+      "load_rule": "负重允许全程姿态与步态可控，不用距离或组数掩盖负重移动任务。"
+    },
+    "progression": "非重点保持明确控制量；重点时由Skill选延长保持、增加合适外部负重或更换已熟悉同任务条件中的一种。准备不是长期只停留低负荷的理由，复杂动作不会只因周数增加自动获准。"
+  },
+  "session_routes": {
+    "contract": "每堂先选一个主任务及符合本人近期量的起点。以下条件化案例是设计选择，不是最佳剂量、医学阈值或每周必须集齐的课型；完整准备和收尾另列。使用当前可靠依据或清楚努力锚点，不要求新增测试、日志或证明。执行只使用已注册同任务资产。",
+    "run": {
+      "easy": {
+        "family": "E 轻松有氧",
+        "registered_asset": "easy_run",
+        "dose_strategy": "run.easy_development",
+        "purpose": "可持续专项量与较低成本有氧"
+      },
+      "longer_easy": {
+        "family": "E 轻松有氧的长时分支",
+        "registered_asset": "long_easy_run",
+        "use_when": "近期三课30、35、40分钟稳定，最长40分钟可重复，阶段需要更长连续输出。",
+        "four_week_main_minutes": [
+          40,
+          42,
+          44,
+          44
+        ],
+        "intensity": "轻松持续，呼吸与动作可控；其他两课先维持近期30与35分钟。",
+        "continuation": "下一阶段可在周量保持时从较短课转移已明确分钟到长课，或沿本人起点加时；不同时追加一整堂长课或更快主段。"
+      },
+      "tempo_cruise": {
+        "family": "T 阈强度任务",
+        "registered_asset": "threshold_cruise_intervals",
+        "use_when": "轻松跑稳定，近期15分钟相似T工作可重复；已熟悉舒适但吃力、若必须可持续约30至40分钟的努力，或有当前T配速依据。",
+        "default": {
+          "repeats": 3,
+          "work_minutes": 5,
+          "recovery_seconds": 60,
+          "recovery_mode": "轻松慢跑",
+          "intensity": "舒适但吃力，沿用熟悉T努力，若必须仍感觉可持续约30至40分钟；不逐段加速、不接近全力"
+        },
+        "four_week_repeats": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "four_week_work_minutes": [
+          5,
+          6,
+          6,
+          6
+        ],
+        "known_longer_branch": {
+          "use_when": "已有同努力9分钟单段基础，第4周要保持18分钟总工作并延长连续结构",
+          "week_4": {
+            "repeats": 2,
+            "work_minutes": 9,
+            "recovery_seconds": 90,
+            "recovery_mode": "轻松慢跑"
+          }
+        },
+        "naming": "无可靠当前生理/配速依据时显示稳定节奏跑，不宣称已测阈值；可靠当前依据可沿用，不从未来目标配速反推。",
+        "continuation": "已有同努力18分钟连续基础时可在后续阶段改18分钟连续工作；否则保留已熟悉分段，选唯一结构。延长连续段时不同时提速或增加总工作。"
+      },
+      "aerobic_intervals": {
+        "family": "I 有氧间歇任务",
+        "registered_asset": "aerobic_run_intervals",
+        "short_branch": "仅熟悉8分钟可重复较强量时，采用controlled_hard_run与run.controlled_hard_intervals的4×2→5×2→6×2→6×2，段间轻松慢跑2分钟；显示可重复较强短段，未有I努力依据不冒称正式I。",
+        "longer_branch": {
+          "use_when": "轻松和质量跑稳定，近期12分钟相似I工作及3分钟单段已熟悉；已熟悉约可连续维持10至12分钟的吃力努力，或有当前I配速依据。",
+          "default": {
+            "repeats": 4,
+            "work_minutes": 3,
+            "recovery_minutes": 2,
+            "recovery_mode": "轻松慢跑",
+            "intensity": "比T明显更强，采用当前I配速或熟悉约可连续维持10至12分钟的吃力努力；四组可重复、非全力"
+          },
+          "four_week_repeats": [
+            4,
+            5,
+            5,
+            5
+          ]
+        },
+        "continuation": "已有3分钟段基础时可将12分钟工作由6×2改4×3，恢复2分钟；新段长依据不足选保持熟悉结构。不把较短段跑更快当作同一I任务递进。",
+        "naming": "工作时间与努力明确；无可靠当前依据不写测得VO2max配速或虚构心率区间。",
+        "short_branch_registered_asset": "controlled_hard_run"
+      },
+      "speed_economy": {
+        "families": [
+          "ST 短渐快",
+          "R 速度与跑动经济性"
+        ],
+        "short_acceleration": {
+          "registered_asset": "strides",
+          "dose_strategy": "run.strides"
+        },
+        "repetition_family": {
+          "use_when": "已有短渐快跑，近期1200米相似R总量稳定；200米快段熟悉并不超过90秒，采用当前熟悉R努力或配速，200米轻松恢复跑能在3分钟内完成。",
+          "default": {
+            "repeats": 6,
+            "distance_meters": 200,
+            "recovery_seconds": 180,
+            "recovery_mode": "先200米轻松慢跑，余时轻松走或站立",
+            "intensity": "当前较快R努力，放松且动作稳定、非全力；3分钟后仍不能再现流畅质量则结束本单元",
+            "recovery_distance_m": 200
+          },
+          "four_week_repeats": [
+            6,
+            6,
+            7,
+            7
+          ],
+          "registered_asset": "repetition_run",
+          "recovery_accounting": "每段间恢复总180秒，先200米轻松跑，再余时步行或静止。恢复跑的实际分钟与200米计入总跑量；余时不算跑。两部分不在原恢复窗口外重复相加。"
+        },
+        "continuation": "保留已建快速量与充分恢复，匹配当前熟悉较快努力；段长、地形或复杂性改变须有相应已熟悉资产。不用缩休、喘气或疲劳证明速度进步。"
+      },
+      "known_technique_focus": {
+        "family": "熟悉技术与节奏巩固",
+        "registered_asset": "easy_run",
+        "default_focus_minutes": 10,
+        "placement": "已选轻松跑的前10分钟只关注一个已知任务，不新增跑动量；常规跑场准备另按课结构",
+        "limit": "没有独立同任务资产时不生成跑姿教学或伪造协调/速度覆盖。"
+      }
+    },
+    "swim": {
+      "easy_repeats": {
+        "family": "有氧耐力",
+        "registered_asset": "freestyle_short_repeats",
+        "dose_strategy": "swim.supplement_50m",
+        "continuation": "有100米连续基础时可保持400米由8×50改4×100，纯休息45秒；否则保留熟悉50米结构。"
+      },
+      "longer_sustained": {
+        "family": "有氧耐力的长组距分支",
+        "registered_asset": "freestyle_aerobic_repeats",
+        "use_when": "近期轻松主组4×200米稳定，200米连续能力已具备，阶段需要更长持续输出。",
+        "default": {
+          "repeats": 4,
+          "distance_meters": 200,
+          "rest_seconds": 30,
+          "rest_type": "到边后纯休息",
+          "intensity": "轻松持续、技术与呼吸可控"
+        },
+        "four_week_repeats": [
+          4,
+          5,
+          5,
+          5
+        ],
+        "known_longer_branch": {
+          "use_when": "已有轻松500米连续基础，第4周需要保持1000米改变连续结构",
+          "week_4": {
+            "repeats": 2,
+            "distance_meters": 500,
+            "rest_seconds": 60,
+            "rest_type": "到边后纯休息"
+          }
+        },
+        "continuation": "已有相应连续能力时保持总米数改长组或连续整泳；没有该能力不按周数强上500或1000米。",
+        "asset_rule": "此200米分支匹配已熟悉200米连续泳的freestyle_aerobic_repeats，恢复按本策略明确30秒；freestyle_long_repeats另需400米连续基础及相应近期量，不能只因标题较长就套其前置。"
+      },
+      "steady_pace": {
+        "family": "配速课或稳定较强持续任务",
+        "registered_asset": "freestyle_strong_repeats",
+        "use_when": "当前泳姿已会，近期600米较强工作和100米重复稳定，目标为保持较强节奏。",
+        "default": {
+          "repeats": 6,
+          "distance_meters": 100,
+          "rest_seconds": 30,
+          "rest_type": "到边后纯休息",
+          "intensity": "本人当前可持续、可重复的较强努力"
+        },
+        "four_week_repeats": [
+          6,
+          7,
+          7,
+          8
+        ],
+        "naming": "无可靠当前阈值依据时显示稳定配速或节奏持续，不称CSS或测得阈值；提供可靠当前配速可沿用，未来目标成绩不是当前强度依据。",
+        "continuation": "后续可保持800米改已熟悉的4×200、纯休息45秒；未有该较强组距基础则保留8×100。固定配速周不同时加速、延长组距与缩休。",
+        "supported_pace_branch": {
+          "registered_asset": "swim_pace_repeats",
+          "use_when": "已有当前100米可重复配速或熟悉相似持续努力，近期600米相似工作稳定；本阶段保护配速一致性。",
+          "default": {
+            "repeats": 6,
+            "distance_meters": 100,
+            "rest_seconds": 45,
+            "rest_type": "到边后纯休息",
+            "intensity": "沿用当前已支持的可重复配速或熟悉努力，六趟相近；未知数字不用未来目标成绩倒推"
+          },
+          "four_week_repeats": [
+            6,
+            6,
+            6,
+            6
+          ],
+          "continuation": "下一阶段同任务先增加至7×100米、纯休45秒；不同时提速或压缩恢复。"
+        }
+      },
+      "hard_intervals": {
+        "family": "可重复较强水中耐力",
+        "registered_asset": "controlled_hard_swim",
+        "dose_strategy": "swim.controlled_hard_intervals",
+        "continuation": "主组300米保持时，已有100米较强单段基础可6×50改3×100，纯休息60秒；否则保留6×50、45秒休息。"
+      },
+      "short_speed": {
+        "family": "短段速度",
+        "continuation": "首4周保持选定8×25、6×50或4×100并保护质量，下一阶段同任务先增加1组并保留当前努力与恢复；不自动延长单段或压休。25米快段资产只用于25米池，不要求50米池池中休息；技术持续失控时到壁休息，恢复后仍不能保持则结束相关工作，不靠憋气。",
+        "selection": "短速度或速度耐力按实际目标、熟悉距离、近期量及池长选一支；100米速度耐力不是25或50米短速度的自动进阶等级。",
+        "fast_25m_branch": {
+          "use_when": "25米池，快速25米整泳已熟悉、近期200米短快量稳定",
+          "default": {
+            "repeats": 8,
+            "distance_meters": 25,
+            "rest_seconds": 60,
+            "rest_type": "到边后纯休息",
+            "intensity": "短快输出，后组保持动作与速度质量"
+          },
+          "four_week_repeats": [
+            8,
+            8,
+            8,
+            8
+          ],
+          "registered_asset": "freestyle_fast_25",
+          "pool_lengths_m": [
+            25
+          ],
+          "next_stage_start": {
+            "repeats": 9,
+            "distance_meters": 25,
+            "rest_seconds": 60
+          }
+        },
+        "fast_50m_branch": {
+          "use_when": "25或50米池，快速50米自由泳、正常换气和转壁已熟悉，近期300米相似快段稳定，60秒纯休后能再现质量。",
+          "default": {
+            "repeats": 6,
+            "distance_meters": 50,
+            "rest_seconds": 60,
+            "rest_type": "到边后纯休息",
+            "intensity": "短快输出，后组保持动作与速度质量"
+          },
+          "four_week_repeats": [
+            6,
+            6,
+            6,
+            6
+          ],
+          "registered_asset": "swim_50m_fast_repeats",
+          "pool_lengths_m": [
+            25,
+            50
+          ],
+          "next_stage_start": {
+            "repeats": 7,
+            "distance_meters": 50,
+            "rest_seconds": 60
+          }
+        },
+        "speed_endurance_100m_branch": {
+          "registered_asset": "swim_100m_speed_endurance",
+          "pool_lengths_m": [
+            25,
+            50
+          ],
+          "use_when": "较快100米自由泳、转壁和正常换气已熟悉，近期400米相似工作稳定，90秒纯休后可恢复质量；本阶段需要持续速度质量。",
+          "default": {
+            "repeats": 4,
+            "distance_meters": 100,
+            "rest_seconds": 90,
+            "rest_type": "到边后纯休息",
+            "intensity": "较快且可重复，高于轻松有氧努力，末段保持动作和正常换气、非全力耗竭"
+          },
+          "four_week_repeats": [
+            4,
+            4,
+            4,
+            4
+          ],
+          "next_stage_start": {
+            "repeats": 5,
+            "distance_meters": 100,
+            "rest_seconds": 90
+          }
+        }
+      },
+      "technique_integration": {
+        "family": "整泳技术或已熟悉分解技术",
+        "registered_asset": "freestyle_focus_swim",
+        "use_when": "所选泳姿、练习与关注点已会，目的为巩固并带回整泳，不临时教学。",
+        "pool_25m_branch": {
+          "focus": {
+            "repeats": 4,
+            "distance_meters": 25,
+            "rest_seconds": 20
+          },
+          "integration": {
+            "repeats": 4,
+            "distance_meters": 25,
+            "rest_seconds": 20,
+            "registered_asset": "swim_easy"
+          }
+        },
+        "pool_50m_branch": {
+          "focus": {
+            "repeats": 2,
+            "distance_meters": 50,
+            "rest_seconds": 30
+          },
+          "integration": {
+            "repeats": 2,
+            "distance_meters": 50,
+            "rest_seconds": 30,
+            "registered_asset": "swim_easy"
+          }
+        },
+        "progression": "四周保持技术块总量200米，先把同一关注点带入主组；后续可带到更长熟悉整泳，不每周增加新drill或宣称短技术块已经承担耐力发展。"
+      }
+    }
+  }
+}

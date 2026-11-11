@@ -1,0 +1,13 @@
+{
+  "strength": "力量",
+  "power": "爆发力",
+  "speed": "速度",
+  "endurance": "耐力",
+  "mobility": "活动度",
+  "balance": "平衡",
+  "coordination": "协调",
+  "elasticity": "弹性反应",
+  "rotation": "旋转与抗旋转",
+  "landing_control": "落地与减速控制",
+  "fundamental_movement": "基础运动能力"
+}

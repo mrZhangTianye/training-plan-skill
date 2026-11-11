@@ -1,0 +1,4 @@
+interface:
+  display_name: "综合训练课表"
+  short_description: "整合功能性力量、跑步与游泳，生成剂量明确、递进预设的训练课表"
+  default_prompt: "使用 $training-plan，根据我的目标、当前水平和可用时间，制定明确剂量并预设递进的混合训练课表。"

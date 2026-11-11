@@ -1,0 +1,101 @@
+{
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "enum": [
+        "0.1",
+        "0.2",
+        "0.3"
+      ]
+    },
+    "plan_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "before_version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "after_version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "before_hash": {
+      "type": "string",
+      "minLength": 1
+    },
+    "after_hash": {
+      "type": "string",
+      "minLength": 1
+    },
+    "changes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "operation": {
+            "type": "string",
+            "enum": [
+              "add",
+              "remove",
+              "replace"
+            ]
+          },
+          "before": {},
+          "after": {}
+        },
+        "required": [
+          "path",
+          "operation",
+          "before",
+          "after"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "affected_entities": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "reason": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "association_review": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "schema_version",
+    "plan_id",
+    "before_version",
+    "after_version",
+    "before_hash",
+    "after_hash",
+    "changes",
+    "affected_entities",
+    "reason",
+    "evidence_ids",
+    "association_review"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "0.3",
+  "plan_id": "DEMO-12W",
+  "before_version": 3,
+  "after_version": 4,
+  "before_hash": "798dcb1a5fe0473fb82a04855fb88facf1435add55aebd03659ca9f7690600ee",
+  "after_hash": "2e840e76024b0fcf77d66f7fa94fde63397b9734672c242e13172237aed74574",
+  "changes": [
+    {
+      "path": "/sessions/W01-R1/duration_minutes",
+      "operation": "replace",
+      "before": 28,
+      "after": 23
+    },
+    {
+      "path": "/sessions/W01-R1/mini_goal",
+      "operation": "replace",
+      "before": "轻松连续跑20分钟",
+      "after": "用户主动缩短：本次主跑15分钟，后续保留预定安排"
+    },
+    {
+      "path": "/sessions/W01-R1/modules/M-34ba251a3f/duration_minutes",
+      "operation": "replace",
+      "before": 20,
+      "after": 15
+    },
+    {
+      "path": "/sessions/W01-R1/modules/M-34ba251a3f/items/easy_run-1/aerobic_minutes",
+      "operation": "replace",
+      "before": 20,
+      "after": 15
+    },
+    {
+      "path": "/sessions/W01-R1/modules/M-34ba251a3f/items/easy_run-1/dose/duration_minutes",
+      "operation": "replace",
+      "before": 20,
+      "after": 15
+    },
+    {
+      "path": "/sessions/W01-R1/modules/M-34ba251a3f/items/easy_run-1/duration_minutes",
+      "operation": "replace",
+      "before": 20,
+      "after": 15
+    },
+    {
+      "path": "/version",
+      "operation": "replace",
+      "before": 3,
+      "after": 4
+    }
+  ],
+  "affected_entities": [
+    "W01-R1"
+  ],
+  "reason": "虚构用户主动要求首周周二缩短5分钟",
+  "evidence_ids": [],
+  "association_review": "仅改变本次主跑，后续计划与末周目标保留。"
+}

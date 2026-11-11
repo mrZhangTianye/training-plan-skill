@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "works": [
+    {
+      "id": "guzman_swimming_drill_book_2007",
+      "title": "The Swimming Drill Book",
+      "author": "Ruben J. Guzman",
+      "publisher": "Human Kinetics",
+      "year": 2007,
+      "isbn": "978-0-7360-6251-0",
+      "edition_note": "2007 version, not the later second edition",
+      "verified_scope": "Preface, Introduction, drills 18–20 and 66–74 in extracted text; illustrations not verified",
+      "text_sha256": "d8e0b8f3b13fc854a09080c61bc145582d15a160f0be32e3f9713465637cbaaa"
+    }
+  ],
+  "entries": [
+    {
+      "id": "guzman_2007_drill_18",
+      "unit_id": "swim_breaststroke_kick_deck",
+      "work_id": "guzman_swimming_drill_book_2007",
+      "drill_number": 18,
+      "printed_pages": [
+        38,
+        39
+      ],
+      "pdf_pages": [
+        54,
+        55
+      ],
+      "claim_scope": "练习目的、基本动作次序与观察点；不支持本产品组次、距离、休息与准入规则。",
+      "paraphrase": "理解收腿、脚转向、蹬夹与并拢的顺序。 末端能自然并腿和伸展脚尖。"
+    },
+    {
+      "id": "guzman_2007_drill_19",
+      "unit_id": "swim_breaststroke_kick_supine",
+      "work_id": "guzman_swimming_drill_book_2007",
+      "drill_number": 19,
+      "printed_pages": [
+        40,
+        41
+      ],
+      "pdf_pages": [
+        56,
+        57
+      ],
+      "claim_scope": "练习目的、基本动作次序与观察点；不支持本产品组次、距离、休息与准入规则。",
+      "paraphrase": "保持上身体位，减少腿法带来的过大起伏。 头胸不没水，收腿时膝不明显顶出水面。"
+    },
+    {
+      "id": "guzman_2007_drill_20",
+      "unit_id": "swim_breaststroke_kick_streamline",
+      "work_id": "guzman_swimming_drill_book_2007",
+      "drill_number": 20,
+      "printed_pages": [
+        42,
+        43
+      ],
+      "pdf_pages": [
+        58,
+        59
+      ],
+      "claim_scope": "练习目的、基本动作次序与观察点；不支持本产品组次、距离、休息与准入规则。",
+      "paraphrase": "把蛙泳腿连接到俯卧流线。 蹬后髋回高位，脚并拢伸展。"
+    },
+    {
+      "id": "guzman_2007_drill_66",
+      "unit_id": "swim_breaststroke_pull_standing",
+      "work_id": "guzman_swimming_drill_book_2007",
+      "drill_number": 66,
+      "printed_pages": [
+        142,
+        143
+      ],
+      "pdf_pages": [
+        158,
+        159
+      ],
+      "claim_scope": "练习目的、基本动作次序与观察点；不支持本产品组次、距离、休息与准入规则。",
+      "paraphrase": "在稳定支撑下熟悉划臂路径。 双手始终在肩前可见，回到前伸位。"
+    },
+    {
+      "id": "guzman_2007_drill_70",
+      "unit_id": "swim_breaststroke_breathe_kick_slide",
+      "work_id": "guzman_swimming_drill_book_2007",
+      "drill_number": 70,
+      "printed_pages": [
+        150,
+        151
+      ],
+      "pdf_pages": [
+        166,
+        167
+      ],
+      "claim_scope": "练习目的、基本动作次序与观察点；不支持本产品组次、距离、休息与准入规则。",
+      "paraphrase": "连接呼吸、蹬腿与蹬后滑行。 头回水后蹬夹进入滑行，节奏不断。"
+    },
+    {
+      "id": "guzman_2007_drill_71",
+      "unit_id": "swim_breaststroke_slide_stroke_slide",
+      "work_id": "guzman_swimming_drill_book_2007",
+      "drill_number": 71,
+      "printed_pages": [
+        152,
+        153
+      ],
+      "pdf_pages": [
+        168,
+        169
+      ],
+      "claim_scope": "练习目的、基本动作次序与观察点；不支持本产品组次、距离、休息与准入规则。",
+      "paraphrase": "通过单次完整划水练习协调时机。 一划后能迅速回到伸展流线。"
+    },
+    {
+      "id": "guzman_2007_drill_72",
+      "unit_id": "swim_breaststroke_controlled",
+      "work_id": "guzman_swimming_drill_book_2007",
+      "drill_number": 72,
+      "printed_pages": [
+        154,
+        155
+      ],
+      "pdf_pages": [
+        170,
+        171
+      ],
+      "claim_scope": "练习目的、基本动作次序与观察点；不支持本产品组次、距离、休息与准入规则。",
+      "paraphrase": "在完整蛙泳中保持时机、伸展与身体控制。 每轮回到伸展，呼吸和节奏保持均匀。"
+    },
+    {
+      "id": "guzman_2007_drill_73",
+      "unit_id": "swim_breaststroke_two_kicks_one_pull",
+      "work_id": "guzman_swimming_drill_book_2007",
+      "drill_number": 73,
+      "printed_pages": [
+        156,
+        157
+      ],
+      "pdf_pages": [
+        172,
+        173
+      ],
+      "claim_scope": "练习目的、基本动作次序与观察点；不支持本产品组次、距离、休息与准入规则。",
+      "paraphrase": "巩固蹬后伸展和腿部节奏。 不划臂的那次蹬腿，双手仍能稳定前伸。"
+    }
+  ],
+  "policy": [
+    "自行概括的短说明与定位引用；不复制原书图或长段原文。",
+    "默认剂量、产品准入、反馈与安全规则是产品设计；不冒充书本处方。"
+  ]
+}
